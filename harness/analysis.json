@@ -1,0 +1,1165 @@
+{
+ "severity": {
+  "Agent001": "clean",
+  "Agent002": "clean",
+  "Agent003": "clean",
+  "Agent004": "clean",
+  "Agent005": "noncomputable-only",
+  "Agent006": "clean",
+  "Agent007": "clean",
+  "Agent008": "clean",
+  "Agent009": "clean",
+  "Agent010": "noncomputable-only",
+  "Agent011": "noncomputable-only",
+  "Agent012": "clean",
+  "Agent013": "clean",
+  "Agent014": "clean",
+  "Agent015": "noncomputable-only",
+  "Agent016": "clean",
+  "Agent017": "clean",
+  "Agent018": "clean",
+  "Agent019": "clean",
+  "Agent020": "error",
+  "Agent021": "clean",
+  "Agent022": "clean",
+  "Agent023": "clean",
+  "Agent024": "noncomputable-only",
+  "Agent025": "clean",
+  "Agent026": "clean",
+  "Agent027": "error",
+  "Agent028": "clean",
+  "Agent029": "clean",
+  "Agent030": "noncomputable-only",
+  "Agent031": "clean",
+  "Agent032": "clean",
+  "Agent033": "clean",
+  "Agent034": "clean",
+  "Agent035": "clean",
+  "Agent036": "clean",
+  "Agent037": "noncomputable-only",
+  "Agent038": "clean",
+  "Agent039": "clean",
+  "Agent040": "noncomputable-only",
+  "Agent041": "noncomputable-only",
+  "Agent042": "clean",
+  "Agent043": "noncomputable-only",
+  "Agent044": "clean",
+  "Agent045": "clean",
+  "Agent046": "noncomputable-only",
+  "Agent047": "noncomputable-only",
+  "Agent048": "clean",
+  "Agent049": "clean",
+  "Agent050": "clean",
+  "Agent051": "clean",
+  "Agent052": "clean",
+  "Agent053": "clean",
+  "Agent054": "clean",
+  "Agent055": "noncomputable-only",
+  "Agent056": "clean",
+  "Agent057": "clean",
+  "Agent058": "clean",
+  "Agent059": "clean",
+  "Agent060": "clean",
+  "Agent061": "clean",
+  "Agent062": "noncomputable-only",
+  "Agent063": "clean",
+  "Agent064": "clean",
+  "Agent065": "clean",
+  "Agent066": "clean",
+  "Agent067": "clean",
+  "Agent068": "clean",
+  "Agent069": "noncomputable-only",
+  "Agent070": "clean",
+  "Agent071": "noncomputable-only",
+  "Agent072": "clean",
+  "Agent073": "clean",
+  "Agent074": "clean",
+  "Agent075": "clean",
+  "Agent076": "clean",
+  "Agent077": "clean",
+  "Agent078": "noncomputable-only",
+  "Agent079": "clean",
+  "Agent080": "clean",
+  "Agent081": "noncomputable-only",
+  "Agent082": "clean",
+  "Agent083": "noncomputable-only",
+  "Agent084": "error",
+  "Agent085": "clean",
+  "Agent086": "clean",
+  "Agent087": "noncomputable-only",
+  "Agent088": "noncomputable-only",
+  "Agent089": "noncomputable-only",
+  "Agent090": "clean",
+  "Agent091": "clean",
+  "Agent092": "noncomputable-only",
+  "Agent093": "clean",
+  "Agent094": "noncomputable-only",
+  "Agent095": "clean",
+  "Agent096": "clean",
+  "Agent097": "clean",
+  "Agent098": "noncomputable-only",
+  "Agent099": "clean",
+  "Agent100": "clean"
+ },
+ "features": {
+  "Agent001": {
+   "depth": "\u2308logb 3 \u2191(n-1)\u2309\u208a + 1  (\u2115-subtraction)",
+   "depth_quant": "exactly k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent002": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "exactly k",
+   "cpwl": "local agreement (metric ball)",
+   "continuous": "yes"
+  },
+  "Agent003": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent004": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent005": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent006": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent007": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent008": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent009": {
+   "depth": "\u2308logb 3 \u2191(n-1)\u2309\u208a + 1  (\u2115-subtraction)",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent010": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent011": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent012": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent013": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (metric ball)",
+   "continuous": "yes"
+  },
+  "Agent014": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "exactly k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent015": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "exactly k",
+   "cpwl": "local agreement (metric ball)",
+   "continuous": "yes"
+  },
+  "Agent016": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent017": {
+   "depth": "\u2308logb 3 \u2191(n-1)\u2309\u208a + 1  (\u2115-subtraction)",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent018": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent019": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent021": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent022": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent023": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent024": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent025": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "exactly k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent026": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent028": {
+   "depth": "\u2308logb 3 \u2191(n-1)\u2309\u208a + 1  (\u2115-subtraction)",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent029": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "exactly k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent030": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent031": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (metric ball)",
+   "continuous": "yes"
+  },
+  "Agent032": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent033": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent034": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent035": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent036": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent037": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "other",
+   "continuous": "yes"
+  },
+  "Agent038": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "exactly k",
+   "cpwl": "local agreement (metric ball)",
+   "continuous": "yes"
+  },
+  "Agent039": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent040": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "exactly k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent041": {
+   "depth": "\u2308logb 3 \u2191(n-1)\u2309\u208a + 1  (\u2115-subtraction)",
+   "depth_quant": "at most k",
+   "cpwl": "other",
+   "continuous": "yes"
+  },
+  "Agent042": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "exactly k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent043": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (metric ball)",
+   "continuous": "yes"
+  },
+  "Agent044": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent045": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent046": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent047": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent048": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent049": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent050": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent051": {
+   "depth": "\u2308logb 3 \u2191(n-1)\u2309\u208a + 1  (\u2115-subtraction)",
+   "depth_quant": "exactly k",
+   "cpwl": "local agreement (metric ball)",
+   "continuous": "yes"
+  },
+  "Agent052": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent053": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (metric ball)",
+   "continuous": "yes"
+  },
+  "Agent054": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent055": {
+   "depth": "\u2308logb 3 \u2191(n-1)\u2309\u208a + 1  (\u2115-subtraction)",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent056": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent057": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent058": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent059": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent060": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent061": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent062": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent063": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent064": {
+   "depth": "\u2308logb 3 \u2191(n-1)\u2309\u208a + 1  (\u2115-subtraction)",
+   "depth_quant": "exactly k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent065": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "exactly k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent066": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent067": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "exactly k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent068": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent069": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent070": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent071": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent072": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent073": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "exactly k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent074": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent075": {
+   "depth": "??",
+   "depth_quant": "exactly k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent076": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent077": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (metric ball)",
+   "continuous": "yes"
+  },
+  "Agent078": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent079": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (metric ball)",
+   "continuous": "yes"
+  },
+  "Agent080": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "exactly k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent081": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent082": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent083": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent085": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "exactly k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent086": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent087": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "exactly k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent088": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent089": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent090": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "other",
+   "continuous": "yes"
+  },
+  "Agent091": {
+   "depth": "Nat.clog 3 (n-1) + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent092": {
+   "depth": "??",
+   "depth_quant": "exactly k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent093": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "exactly k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent094": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent095": {
+   "depth": "\u2308logb 3 \u2191(n-1)\u2309\u208a + 1  (\u2115-subtraction)",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent096": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent097": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent098": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "polyhedral / covering subdivision",
+   "continuous": "yes"
+  },
+  "Agent099": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "at most k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  },
+  "Agent100": {
+   "depth": "\u2308logb 3 ((n:\u211d)-1)\u2309\u208a + 1",
+   "depth_quant": "exactly k",
+   "cpwl": "local agreement (nhds / eventually)",
+   "continuous": "yes"
+  }
+ },
+ "clusters": {
+  "1": [
+   "Agent004",
+   "Agent018"
+  ],
+  "2": [
+   "Agent010",
+   "Agent024"
+  ],
+  "3": [
+   "Agent016",
+   "Agent070"
+  ],
+  "4": [
+   "Agent035",
+   "Agent096"
+  ],
+  "5": [
+   "Agent044",
+   "Agent097"
+  ],
+  "6": [
+   "Agent045",
+   "Agent048"
+  ],
+  "7": [
+   "Agent059",
+   "Agent062"
+  ],
+  "8": [
+   "Agent001"
+  ],
+  "9": [
+   "Agent002"
+  ],
+  "10": [
+   "Agent003"
+  ],
+  "11": [
+   "Agent005"
+  ],
+  "12": [
+   "Agent006"
+  ],
+  "13": [
+   "Agent007"
+  ],
+  "14": [
+   "Agent008"
+  ],
+  "15": [
+   "Agent009"
+  ],
+  "16": [
+   "Agent011"
+  ],
+  "17": [
+   "Agent012"
+  ],
+  "18": [
+   "Agent013"
+  ],
+  "19": [
+   "Agent014"
+  ],
+  "20": [
+   "Agent015"
+  ],
+  "21": [
+   "Agent017"
+  ],
+  "22": [
+   "Agent019"
+  ],
+  "23": [
+   "Agent021"
+  ],
+  "24": [
+   "Agent022"
+  ],
+  "25": [
+   "Agent023"
+  ],
+  "26": [
+   "Agent025"
+  ],
+  "27": [
+   "Agent026"
+  ],
+  "28": [
+   "Agent028"
+  ],
+  "29": [
+   "Agent029"
+  ],
+  "30": [
+   "Agent030"
+  ],
+  "31": [
+   "Agent031"
+  ],
+  "32": [
+   "Agent032"
+  ],
+  "33": [
+   "Agent033"
+  ],
+  "34": [
+   "Agent034"
+  ],
+  "35": [
+   "Agent036"
+  ],
+  "36": [
+   "Agent037"
+  ],
+  "37": [
+   "Agent038"
+  ],
+  "38": [
+   "Agent039"
+  ],
+  "39": [
+   "Agent040"
+  ],
+  "40": [
+   "Agent041"
+  ],
+  "41": [
+   "Agent042"
+  ],
+  "42": [
+   "Agent043"
+  ],
+  "43": [
+   "Agent046"
+  ],
+  "44": [
+   "Agent047"
+  ],
+  "45": [
+   "Agent049"
+  ],
+  "46": [
+   "Agent050"
+  ],
+  "47": [
+   "Agent051"
+  ],
+  "48": [
+   "Agent052"
+  ],
+  "49": [
+   "Agent053"
+  ],
+  "50": [
+   "Agent054"
+  ],
+  "51": [
+   "Agent055"
+  ],
+  "52": [
+   "Agent056"
+  ],
+  "53": [
+   "Agent057"
+  ],
+  "54": [
+   "Agent058"
+  ],
+  "55": [
+   "Agent060"
+  ],
+  "56": [
+   "Agent061"
+  ],
+  "57": [
+   "Agent063"
+  ],
+  "58": [
+   "Agent064"
+  ],
+  "59": [
+   "Agent065"
+  ],
+  "60": [
+   "Agent066"
+  ],
+  "61": [
+   "Agent067"
+  ],
+  "62": [
+   "Agent068"
+  ],
+  "63": [
+   "Agent069"
+  ],
+  "64": [
+   "Agent071"
+  ],
+  "65": [
+   "Agent072"
+  ],
+  "66": [
+   "Agent073"
+  ],
+  "67": [
+   "Agent074"
+  ],
+  "68": [
+   "Agent075"
+  ],
+  "69": [
+   "Agent076"
+  ],
+  "70": [
+   "Agent077"
+  ],
+  "71": [
+   "Agent078"
+  ],
+  "72": [
+   "Agent079"
+  ],
+  "73": [
+   "Agent080"
+  ],
+  "74": [
+   "Agent081"
+  ],
+  "75": [
+   "Agent082"
+  ],
+  "76": [
+   "Agent083"
+  ],
+  "77": [
+   "Agent085"
+  ],
+  "78": [
+   "Agent086"
+  ],
+  "79": [
+   "Agent087"
+  ],
+  "80": [
+   "Agent088"
+  ],
+  "81": [
+   "Agent089"
+  ],
+  "82": [
+   "Agent090"
+  ],
+  "83": [
+   "Agent091"
+  ],
+  "84": [
+   "Agent092"
+  ],
+  "85": [
+   "Agent093"
+  ],
+  "86": [
+   "Agent094"
+  ],
+  "87": [
+   "Agent095"
+  ],
+  "88": [
+   "Agent098"
+  ],
+  "89": [
+   "Agent099"
+  ],
+  "90": [
+   "Agent100"
+  ]
+ },
+ "canon": {
+  "Agent001": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5 x_6, (\u2200 (x_7 : Fin x_3), \u2203 x_8 x_9, (\u2200 (x_10 : Fin x_8), \u2203 x_11 x_12, x_9 x_10 = {x_13 | \u2211 N, x_11 N * x_13 N \u2264 x_12}) \u2227 x_4 x_7 = \u22c2 N, x_9 N) \u2227 \u22c3 N, x_4 N = Set.univ \u2227 \u2200 (x_7 : Fin x_3), \u2200 x_8 \u2208 x_4 x_7, x_2 x_8 = \u2211 N, x_5 x_7 N * x_8 N + x_6 x_7} = {x_2 | \u2203 x_3 x_4 x_5, <L0> x_3 \u2308Real.logb 3 \u2191(N - 1)\u2309\u208a x_5 \u2227 \u2200 (x_6 : Fin N \u2192 \u211d), x_2 x_6 = x_5 fun x_7 \u21a6 max 0 ((x_4.1.mulVec x_6 + x_4.2) x_7)}",
+  "Agent002": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2203 x_7 > 0, \u2200 (x_8 : Fin N \u2192 \u211d), dist x_8 x_5 < x_7 \u2192 x_2 x_8 = ((x_4 x_6).1.mulVec x_8 + (x_4 x_6).2) 0} = {x_2 | \u2203 x_3 x_4 x_5, <L0> x_3 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a x_5 \u2227 x_2 = x_5 \u2218 (fun N x_6 \u21a6 max 0 (N x_6)) \u2218 fun x_6 \u21a6 x_4.1.mulVec x_6 + x_4.2}",
+  "Agent003": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (N : Fin N \u2192 \u211d) in nhds x_5, x_2 N = x_4 x_6 N} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, x_2 \u2208 <L0> N x_3}",
+  "Agent004": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (x_7 : Fin N \u2192 \u211d) in nhds x_5, x_2 x_7 = \u2211 N, (x_4 x_6).1 N * x_7 N + (x_4 x_6).2} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, \u2203 x_4, x_2 = x_4.eval}",
+  "Agent005": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3, (\u2200 x_4 \u2208 x_3, \u2203 x_6 x_7, x_4 = fun x_8 \u21a6 \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_4 : Fin N \u2192 \u211d), \u2203 x_5 \u2208 x_3, \u2203 x_6, IsOpen x_6 \u2227 x_4 \u2208 x_6 \u2227 Set.EqOn x_2 x_5 x_6} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> x_3 N x_2}",
+  "Agent006": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (x_7 : Fin N \u2192 \u211d) in nhds x_5, x_2 x_7 = \u2211 N, (x_4 x_6).1 N * x_7 N + (x_4 x_6).2} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent007": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3, \u2200 (x_4 : Fin N \u2192 \u211d), \u2203 x_5 \u2208 x_3, \u2203 x_6, IsOpen x_6 \u2227 x_4 \u2208 x_6 \u2227 \u2200 x_7 \u2208 x_6, x_2 x_7 = \u2211 x_9, x_5.1 x_9 * x_7 x_9 + x_5.2} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 1 fun N x_4 \u21a6 x_2 N}",
+  "Agent008": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8 x_9, x_4 x_6 = {x_10 | x_8.mulVec x_10 \u2264 x_9}) \u2227 \u22c3 N, x_4 N = Set.univ \u2227 \u2200 (x_6 : Fin x_3), \u2200 x_7 \u2208 x_4 x_6, x_2 x_7 = ((x_5 x_6).1.mulVec x_7 + (x_5 x_6).2) 0} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent009": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (N : Fin N \u2192 \u211d) in nhds x_5, x_2 N = x_4 x_6 N} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 \u2191(N - 1)\u2309\u208a + 1, <L0> x_3 N x_2}",
+  "Agent010": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (x_7 : Fin N \u2192 \u211d) in nhds x_5, x_2 x_7 = ((x_4 x_6).1.mulVec x_7 + (x_4 x_6).2) 0} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent011": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2203 x_7 \u2208 nhds x_5, Set.EqOn x_2 (x_4 x_6) x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, \u2203 x_4, x_2 = x_4.eval}",
+  "Agent012": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, x_2 =\u1da0[nhds x_5] x_4 x_6} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent013": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2203 x_7 > 0, \u2200 (x_8 : Fin N \u2192 \u211d), dist x_8 x_5 < x_7 \u2192 x_2 x_8 = ((x_4 x_6).1.mulVec x_8 + (x_4 x_6).2) 0} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent014": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, \u22c3 x_6, {x_7 | \u2200 (x_8 : Fin (x_5 x_6).2), \u2211 N, (x_5 x_6).3 x_8 N * x_7 N \u2264 (x_5 x_6).4 x_8} = Set.univ \u2227 \u2200 (x_6 : x_3), \u2200 x_7 \u2208 {x_8 | \u2200 (x_9 : Fin (x_5 x_6).2), \u2211 N, (x_5 x_6).3 x_9 N * x_8 N \u2264 (x_5 x_6).4 x_9}, x_2 x_7 = ((x_5 x_6).1.1.mulVec x_7 + (x_5 x_6).1.2) 0} = {x_2 | \u2203 x_3 x_4 x_5, <L0> x_3 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a x_5 \u2227 \u2200 (x_6 : Fin N \u2192 \u211d), x_2 x_6 = x_5 fun x_7 \u21a6 max 0 ((x_4.1.mulVec x_6 + x_4.2) x_7)}",
+  "Agent015": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2203 x_7 > 0, \u2200 (x_8 : Fin N \u2192 \u211d), dist x_8 x_5 < x_7 \u2192 x_2 x_8 = ((x_4 x_6).1.mulVec x_8 + (x_4 x_6).2) 0} = {x_2 | \u2203 x_3 x_4 x_5, <L0> x_3 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a x_5 \u2227 \u2200 (x_6 : Fin N \u2192 \u211d), x_2 x_6 = x_5 fun x_7 \u21a6 max 0 ((x_4.1.mulVec x_6 + x_4.2) x_7)}",
+  "Agent016": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (N : Fin N \u2192 \u211d) in nhds x_5, x_2 N = x_4 x_6 N} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent017": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6 x_7, x_6 \u2208 nhds x_5 \u2227 \u2200 x_8 \u2208 x_6, x_2 x_8 = ((x_4 x_7).1.mulVec x_8 + (x_4 x_7).2) 0} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 \u2191(N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent018": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (x_7 : Fin N \u2192 \u211d) in nhds x_5, x_2 x_7 = \u2211 N, (x_4 x_6).1 N * x_7 N + (x_4 x_6).2} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, \u2203 x_4, x_2 = x_4.eval}",
+  "Agent019": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2203 x_7 \u2208 nhds x_5, \u2200 x_8 \u2208 x_7, x_2 x_8 = x_4 x_6 x_8} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, \u2203 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), x_2 x_5 = Eq.rec (motive := fun N x_6 \u21a6 Fin N \u2192 \u211d) (if x_6 : x_3 < x_3 + 1 then have N := fun x_7 \u21a6 (x_4.4 x_3 x_6).1.mulVec (x_4.vecAt x_5 x_3) x_7 + (x_4.4 x_3 x_6).2 x_7; if x_3 < x_3 then fun x_7 \u21a6 max 0 (N x_7) else N else fun N \u21a6 0) x_4.width_last \u27e80, <L0>\u27e9}",
+  "Agent021": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5 x_6, (\u2200 (x_7 : Fin x_3), \u2203 x_8 x_9 x_10, x_4 x_7 = {x_11 | \u2200 (x_12 : Fin x_8), \u2211 N, x_9 x_12 N * x_11 N \u2264 x_10 x_12}) \u2227 \u22c3 N, x_4 N = Set.univ \u2227 \u2200 (x_7 : Fin x_3), \u2200 x_8 \u2208 x_4 x_7, x_2 x_8 = \u2211 N, x_5 x_7 N * x_8 N + x_6 x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent022": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, \u2200 (x_6 : Fin N \u2192 \u211d), \u2203 x_7, \u2203 x_8 \u2208 nhds x_6, \u2200 x_9 \u2208 x_8, x_2 x_9 = \u2211 N, x_4 x_7 N * x_9 N + x_5 x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> x_3 N x_2}",
+  "Agent023": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, x_4 x_5 = fun x_8 \u21a6 \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6 x_7, IsOpen x_7 \u2227 x_5 \u2208 x_7 \u2227 \u2200 x_8 \u2208 x_7, x_2 x_8 = x_4 x_6 x_8} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> x_3 N x_2}",
+  "Agent024": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (x_7 : Fin N \u2192 \u211d) in nhds x_5, x_2 x_7 = ((x_4 x_6).1.mulVec x_7 + (x_4 x_6).2) 0} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent025": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (N : Fin N \u2192 \u211d) in nhds x_5, x_2 N = x_4 x_6 N} = {x_2 | \u2203 x_3 x_4 x_5, <L0> x_3 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a x_5 \u2227 \u2200 (x_6 : Fin N \u2192 \u211d), x_2 x_6 = x_5 fun x_7 \u21a6 max 0 (\u2211 N, x_4.1 x_7 N * x_6 N + x_4.2 x_7)}",
+  "Agent026": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5 x_6, (\u2200 (x_7 : Fin x_3), \u2203 x_8 x_9 x_10, x_4 x_7 = \u22c2 x_11, {x_12 | \u2211 N, x_9 x_11 N * x_12 N \u2264 x_10 x_11}) \u2227 \u22c3 N, x_4 N = Set.univ \u2227 \u2200 (x_7 : Fin x_3), \u2200 x_8 \u2208 x_4 x_7, x_2 x_8 = \u2211 N, x_5 x_7 N * x_8 N + x_6 x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, \u2203 x_4, x_2 = fun x_5 \u21a6 <L0> x_3 x_4 x_5 0}",
+  "Agent028": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, \u2200 (x_6 : Fin N \u2192 \u211d), \u2203 x_7, \u2200\u1da0 (x_8 : Fin N \u2192 \u211d) in nhds x_6, x_2 x_8 = \u2211 N, (x_5 x_7).1 N * x_8 N + (x_5 x_7).2} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 \u2191(N - 1)\u2309\u208a + 1, <L0> x_3 N 1 fun N x_4 \u21a6 x_2 N}",
+  "Agent029": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7 x_8, x_4 x_5 = {x_9 | \u2200 (x_10 : Fin x_6), \u2211 N, x_7 x_10 N * x_9 N \u2264 x_8 x_10}) \u2227 \u22c3 N, x_4 N = Set.univ \u2227 \u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 x_8 \u2208 x_4 x_5, x_2 x_8 = \u2211 N, x_6 N * x_8 N + x_7} = {x_2 | \u2203 x_3, \u2200 (x_4 : Fin N \u2192 \u211d), x_2 x_4 = List.foldl (fun x_5 x_6 \u21a6 have x_7 := fun x_7 \u21a6 (x_3.4 x_6).2 x_7 + \u2211 N \u2208 Finset.range (x_3.1 x_6.castSucc), (x_3.4 x_6).1 x_7 N * x_5 N; if \u2191x_6 < \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1 then fun N \u21a6 max 0 (x_7 N) else x_7) (fun x_5 \u21a6 if x_6 : x_5 < N then x_4 \u27e8x_5, x_6\u27e9 else 0) (List.finRange (\u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1 + 1)) 0}",
+  "Agent030": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8, (\u2200 (x_9 : Fin x_7), \u2203 x_10 x_11, x_8 x_9 = {x_12 | \u2211 N, x_10 N * x_12 N \u2264 x_11}) \u2227 x_4 x_6 = \u22c2 N, x_8 N) \u2227 (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8, \u2200 (x_9 : Fin N \u2192 \u211d), x_5 x_6 x_9 = \u2211 N, x_7 N * x_9 N + x_8) \u2227 \u22c3 N, x_4 N = Set.univ \u2227 \u2200 (x_6 : Fin x_3), \u2200 x_7 \u2208 x_4 x_6, x_2 x_7 = x_5 x_6 x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent031": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2203 x_7 > 0, \u2200 (x_8 : Fin N \u2192 \u211d), dist x_8 x_5 < x_7 \u2192 x_2 x_8 = \u2211 N, (x_4 x_6).1 0 N * x_8 N + (x_4 x_6).2 0} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent032": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3, \u2203 (_ : Finite x_3), \u2203 x_5, (\u2200 (x_6 : x_3), \u2203 x_7 x_8 x_9, x_5 x_6 = {x_10 | \u2200 (x_11 : Fin x_7), \u2211 N, x_8 x_11 N * x_10 N \u2264 x_9 x_11}) \u2227 \u22c3 N, x_5 N = Set.univ \u2227 \u2200 (x_6 : x_3), \u2203 x_7 x_8, \u2200 x_9 \u2208 x_5 x_6, x_2 x_9 = \u2211 N, x_7 N * x_9 N + x_8} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent033": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, \u2200 (x_6 : Fin N \u2192 \u211d), \u2203 x_7 x_8, IsOpen x_8 \u2227 x_6 \u2208 x_8 \u2227 \u2200 x_9 \u2208 x_8, x_2 x_9 = \u2211 N, x_4 x_7 N * x_9 N + x_5 x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent034": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, \u22c3 N, x_4 N = Set.univ \u2227 (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8 x_9, x_4 x_6 = {x_10 | \u2200 (x_11 : Fin x_7), \u2211 N, x_8 x_11 N * x_10 N + x_9 x_11 \u2264 0}) \u2227 (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8, \u2200 (x_9 : Fin N \u2192 \u211d), x_5 x_6 x_9 = \u2211 N, x_7 N * x_9 N + x_8) \u2227 \u2200 (x_6 : Fin x_3), \u2200 x_7 \u2208 x_4 x_6, x_2 x_7 = x_5 x_6 x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, \u2203 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), x_2 x_5 = x_4.eval x_5 0}",
+  "Agent035": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (x_7 : Fin N \u2192 \u211d) in nhds x_5, x_2 x_7 = ((x_4 x_6).1.mulVec x_7 + (x_4 x_6).2) 0} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, \u2203 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), x_2 x_5 = x_4.eval x_5 0}",
+  "Agent036": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6, \u2200 (x_7 : Fin N \u2192 \u211d), x_4 x_5 x_7 = (x_6.1.mulVec x_7 + x_6.2) 0) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2203 x_7 \u2208 nhds x_5, \u2200 x_8 \u2208 x_7, x_2 x_8 = x_4 x_6 x_8} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent037": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8 x_9, x_4 x_6 = {x_10 | \u2200 (x_11 : Fin x_7), \u2211 N, x_8 x_11 N * x_10 N \u2264 x_9 x_11}) \u2227 (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8, \u2200 (x_9 : Fin N \u2192 \u211d), x_5 x_6 x_9 = \u2211 N, x_7 N * x_9 N + x_8) \u2227 (\u2200 (x_6 : Fin N \u2192 \u211d), \u2203 x_7, x_6 \u2208 x_4 x_7) \u2227 \u2200 (x_6 : Fin x_3), \u2200 x_7 \u2208 x_4 x_6, x_2 x_7 = x_5 x_6 x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> x_3 N x_2}",
+  "Agent038": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2203 x_7 > 0, \u2200 (x_8 : Fin N \u2192 \u211d), dist x_8 x_5 < x_7 \u2192 x_2 x_8 = x_4 x_6 x_8} = {x_2 | \u2203 x_3 x_4 x_5, <L0> \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a x_3 x_5 \u2227 x_2 = fun x_6 \u21a6 x_5 fun x_7 \u21a6 max 0 (\u2211 N, x_4.1 x_7 N * x_6 N + x_4.2 x_7)}",
+  "Agent039": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5 x_6, \u2200 (x_7 : Fin N \u2192 \u211d), \u2203 x_8 x_9, IsOpen x_9 \u2227 x_7 \u2208 x_9 \u2227 \u2200 x_10 \u2208 x_9, x_2 x_10 = \u2211 N, x_5 x_8 N * x_10 N + x_6 x_8} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent040": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3, \u2200 (x_4 : Fin N \u2192 \u211d), \u2203 x_5 \u2208 x_3, \u2200\u1da0 (x_6 : Fin N \u2192 \u211d) in nhds x_4, x_2 x_6 = \u2211 N, x_5.1 0 N * x_6 N + x_5.2 0} = {x_2 | \u2203 x_3 x_4 x_5, <L0> \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a x_3 x_5 \u2227 \u2200 (x_6 : Fin N \u2192 \u211d), x_2 x_6 = x_5 fun x_7 \u21a6 max 0 (\u2211 N, x_4.1 x_7 N * x_6 N + x_4.2 x_7)}",
+  "Agent041": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (N : Fin N \u2192 \u211d), \u2203 x_5, x_2 N = x_4 x_5 N} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 \u2191(N - 1)\u2309\u208a + 1, \u2203 x_4, <L0> x_3 N 1 x_4 \u2227 x_2 = fun N \u21a6 x_4 N 0}",
+  "Agent042": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5 x_6, (\u2200 (x_7 : Fin x_3), \u2203 x_8 x_9 x_10, x_4 x_7 = {x_11 | \u2200 (x_12 : Fin x_8), \u2211 N, x_9 x_12 N * x_11 N \u2264 x_10 x_12}) \u2227 \u22c3 N, x_4 N = Set.univ \u2227 \u2200 (x_7 : Fin x_3), \u2200 x_8 \u2208 x_4 x_7, x_2 x_8 = \u2211 N, x_5 x_7 N * x_8 N + x_6 x_7} = {x_2 | \u2203 x_3, x_3.length = \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1 + 1 \u2227 Option.map (fun N \u21a6 N.1) x_3.head? = some N \u2227 Option.map (fun N \u21a6 N.2) x_3.getLast? = some 1 \u2227 List.Chain' (fun N x_4 \u21a6 N.2 = x_4.1) x_3 \u2227 \u2200 (x_4 : Fin N \u2192 \u211d), \u2203 x_5, <L0> x_3 \u27e8N, x_4\u27e9 = \u27e81, x_5\u27e9 \u2227 x_2 x_4 = x_5 0}",
+  "Agent043": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, \u2200 (x_6 : Fin N \u2192 \u211d), \u2203 x_7 > 0, \u2203 x_8, \u2200 (x_9 : Fin N \u2192 \u211d), dist x_9 x_6 < x_7 \u2192 x_2 x_9 = \u2211 N, x_4 x_8 N * x_9 N + x_5 x_8} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> 1 x_3 N fun N x_4 \u21a6 x_2 N}",
+  "Agent044": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, \u2200 (x_6 : Fin N \u2192 \u211d), \u2203 x_7, \u2200\u1da0 (x_8 : Fin N \u2192 \u211d) in nhds x_6, x_2 x_8 = \u2211 N, x_4 x_7 N * x_8 N + x_5 x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent045": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (N : Fin N \u2192 \u211d) in nhds x_5, x_2 N = x_4 x_6 N} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> x_3 N x_2}",
+  "Agent046": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8, \u2200 (x_9 : Fin N \u2192 \u211d), x_4 x_6 x_9 = \u2211 N, x_7 N * x_9 N + x_8) \u2227 (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8 x_9, x_5 x_6 = \u22c2 x_10, {x_11 | \u2211 N, x_8 x_10 N * x_11 N \u2264 x_9 x_10}) \u2227 \u22c3 N, x_5 N = Set.univ \u2227 \u2200 (x_6 : Fin x_3), \u2200 x_7 \u2208 x_5 x_6, x_2 x_7 = x_4 x_6 x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent047": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (N : Fin N \u2192 \u211d) in nhds x_5, x_2 N = x_4 x_6 N} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N 1 x_3 fun N x_4 \u21a6 x_2 N}",
+  "Agent048": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (N : Fin N \u2192 \u211d) in nhds x_5, x_2 N = x_4 x_6 N} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> x_3 N x_2}",
+  "Agent049": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7 x_8, x_4 x_5 = {x_9 | \u2200 (x_10 : Fin x_6), x_7.mulVec x_9 x_10 \u2264 x_8 x_10}) \u2227 \u22c3 N, x_4 N = Set.univ \u2227 \u2200 (x_5 : Fin x_3), \u2203 x_6, (\u2203 x_7 x_8, x_6 = fun x_9 \u21a6 \u2211 N, x_7 N * x_9 N + x_8) \u2227 Set.EqOn x_2 x_6 (x_4 x_5)} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent050": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8 x_9, x_4 x_6 = {x_10 | \u2200 (x_11 : Fin x_7), \u2211 N, x_8 x_11 N * x_10 N \u2264 x_9 x_11}) \u2227 (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8, \u2200 (x_9 : Fin N \u2192 \u211d), x_5 x_6 x_9 = \u2211 N, x_7 N * x_9 N + x_8) \u2227 \u22c3 N, x_4 N = Set.univ \u2227 \u2200 (x_6 : Fin x_3), \u2200 x_7 \u2208 x_4 x_6, x_2 x_7 = x_5 x_6 x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, \u2203 x_4, x_2 = x_4.eval}",
+  "Agent051": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2203 x_7 > 0, \u2200 (x_8 : Fin N \u2192 \u211d), dist x_8 x_5 < x_7 \u2192 x_2 x_8 = x_4 x_6 x_8} = {x_2 | \u2203 x_3 x_4 x_5, <L0> x_3 \u2308Real.logb 3 \u2191(N - 1)\u2309\u208a x_5 \u2227 \u2200 (x_6 : Fin N \u2192 \u211d), x_2 x_6 = x_5 fun x_7 \u21a6 max 0 ((x_4.1.mulVec x_6 + x_4.2) x_7)}",
+  "Agent052": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5 x_6, \u22c3 x_7, \u22c2 x_8, {x_9 | \u2211 N, (x_5 x_7 x_8).1 N * x_9 N \u2264 (x_5 x_7 x_8).2} = Set.univ \u2227 \u2200 (x_7 : Fin x_3), \u2200 x_8 \u2208 \u22c2 x_9, {x_10 | \u2211 N, (x_5 x_7 x_9).1 N * x_10 N \u2264 (x_5 x_7 x_9).2}, x_2 x_8 = \u2211 N, (x_6 x_7).1 0 N * x_8 N + (x_6 x_7).2 0} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, \u2203 x_4 x_5, \u2203 (x_6 : x_4 0 = N) (x_7 : x_4 (x_3 + 1) = 1), \u2200 (x_8 : Fin N \u2192 \u211d), x_2 x_8 = cast (<L0> x_3 x_4 x_7) (fun x_9 \u21a6 \u2211 x_10, (x_5 x_3).1 x_9 x_10 * (if x_3 = 0 then <L1> x_4 x_5 x_3 (cast (<L2> N x_4 x_6) x_8) else fun x_11 \u21a6 max 0 (<L1> x_4 x_5 x_3 (cast (<L2> N x_4 x_6) x_8) x_11)) x_10 + (x_5 x_3).2 x_9) 0}",
+  "Agent053": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2203 x_7 > 0, \u2200 (x_8 : Fin N \u2192 \u211d), dist x_8 x_5 < x_7 \u2192 x_2 x_8 = x_4 x_6 x_8} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> x_3 N x_2}",
+  "Agent054": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, (\u2200 (x_6 : Fin x_3), Convex \u211d (x_4 x_6)) \u2227 (\u2200 (x_6 : Fin x_3), IsClosed (x_4 x_6)) \u2227 \u22c3 N, x_4 N = Set.univ \u2227 (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8, x_5 x_6 = fun x_9 \u21a6 \u2211 N, x_7 N * x_9 N + x_8) \u2227 \u2200 (x_6 : Fin x_3), \u2200 x_7 \u2208 x_4 x_6, x_2 x_7 = x_5 x_6 x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> x_3 N x_2}",
+  "Agent055": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2203 x_7 \u2208 nhds x_5, Set.EqOn x_2 (x_4 x_6) x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 \u2191(N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent056": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (x_7 : Fin N \u2192 \u211d) in nhds x_5, x_2 x_7 = \u2211 N, (x_4 x_6).1 N * x_7 N + (x_4 x_6).2} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, \u2203 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), x_2 x_5 = x_4.compute x_5}",
+  "Agent057": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5 x_6, (\u2200 (x_7 : x_3), \u2203 x_8 x_9 x_10 x_11, x_5 x_7 = \u22c2 x_12, {x_13 | (x_10 x_12) x_13 \u2264 x_11 x_12}) \u2227 \u22c3 N, x_5 N = Set.univ \u2227 \u2200 (x_7 : x_3), \u2200 x_8 \u2208 x_5 x_7, x_2 x_8 = (x_6 x_7) x_8} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N 1 x_3 fun N x_4 \u21a6 x_2 N}",
+  "Agent058": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (x_7 : Fin N \u2192 \u211d) in nhds x_5, x_2 x_7 = ((x_4 x_6).1.mulVec x_7 + (x_4 x_6).2) 0} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, \u2203 x_4, \u2203 (x_5 : (match x_3 + 1 with | 0 => N | N.succ => x_4 N) = 1), \u2203 x_6, x_2 = fun x_7 \u21a6 (have x_8 := (x_6 x_3).1.mulVec (<L0> (fun x_8 \u21a6 match x_8 with | 0 => N | N.succ => x_4 N) x_6 x_3 x_3 x_7) + (x_6 x_3).2; if x_3 + 1 \u2264 x_3 then fun N \u21a6 max 0 (x_8 N) else x_8) (Fin.cast (<L1> N x_3 x_4 x_5) 0)}",
+  "Agent059": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8 x_9, x_4 x_6 = {x_10 | \u2200 (x_11 : Fin x_7), \u2211 N, x_8 x_11 N * x_10 N \u2264 x_9 x_11}) \u2227 (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8, \u2200 (x_9 : Fin N \u2192 \u211d), x_5 x_6 x_9 = \u2211 N, x_7 N * x_9 N + x_8) \u2227 \u22c3 N, x_4 N = Set.univ \u2227 \u2200 (x_6 : Fin x_3), \u2200 x_7 \u2208 x_4 x_6, x_2 x_7 = x_5 x_6 x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent060": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3, (\u2200 x_4 \u2208 x_3, \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_4 : Fin N \u2192 \u211d), \u2203 x_5 \u2208 x_3, \u2203 x_6, IsOpen x_6 \u2227 x_4 \u2208 x_6 \u2227 Set.EqOn x_2 x_5 x_6} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent061": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3, (\u2200 x_4 \u2208 x_3, \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_4 : Fin N \u2192 \u211d), \u2203 x_5 \u2208 x_3, \u2200\u1da0 (N : Fin N \u2192 \u211d) in nhds x_4, x_2 N = x_5 N} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> x_3 N x_2}",
+  "Agent062": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8 x_9, x_4 x_6 = {x_10 | \u2200 (x_11 : Fin x_7), \u2211 N, x_8 x_11 N * x_10 N \u2264 x_9 x_11}) \u2227 (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8, \u2200 (x_9 : Fin N \u2192 \u211d), x_5 x_6 x_9 = \u2211 N, x_7 N * x_9 N + x_8) \u2227 \u22c3 N, x_4 N = Set.univ \u2227 \u2200 (x_6 : Fin x_3), \u2200 x_7 \u2208 x_4 x_6, x_2 x_7 = x_5 x_6 x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent063": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8 x_9, x_4 x_6 = {x_10 | \u2200 (x_11 : Fin x_7), \u2211 N, x_8 x_11 N * x_10 N + x_9 x_11 \u2264 0}) \u2227 (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8, \u2200 (x_9 : Fin N \u2192 \u211d), x_5 x_6 x_9 = \u2211 N, x_7 N * x_9 N + x_8) \u2227 \u22c3 N, x_4 N = Set.univ \u2227 \u2200 (x_6 : Fin x_3), \u2200 x_7 \u2208 x_4 x_6, x_2 x_7 = x_5 x_6 x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent064": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, \u2200 (x_6 : Fin N \u2192 \u211d), \u2203 x_7 x_8, IsOpen x_8 \u2227 x_6 \u2208 x_8 \u2227 \u2200 x_9 \u2208 x_8, x_2 x_9 = \u2211 N, x_4 x_7 N * x_9 N + x_5 x_7} = {x_2 | \u2203 x_3, x_3.length = \u2308Real.logb 3 \u2191(N - 1)\u2309\u208a + 1 + 1 \u2227 \u2200 (x_4 : Fin N \u2192 \u211d), <L0> x_3 \u27e8N, x_4\u27e9 = \u27e81, fun N \u21a6 x_2 x_4\u27e9}",
+  "Agent065": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (N : Fin N \u2192 \u211d) in nhds x_5, x_2 N = x_4 x_6 N} = {x_2 | \u2203 x_3, \u2200 (x_4 : Fin N \u2192 \u211d), (have x_5 := (x_3.4 (\u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1)).1.mulVec (have x_5 := (x_3.4 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a).1.mulVec (x_3.forward \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a x_4) + (x_3.4 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a).2; if \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1 = \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1 + 1 then x_5 else fun N \u21a6 max 0 (x_5 N)) + (x_3.4 (\u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1)).2; if \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1 + 1 = \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1 + 1 then x_5 else fun N \u21a6 max 0 (x_5 N)) (Fin.cast (<L0> x_3) 0) = x_2 x_4}",
+  "Agent066": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, x_2 =\u1da0[nhds x_5] \u21d1(x_4 x_6)} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent067": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, \u2200 (x_6 : Fin N \u2192 \u211d), \u2203 x_7, \u2200\u1da0 (x_8 : Fin N \u2192 \u211d) in nhds x_6, x_2 x_8 = \u2211 N, x_4 x_7 N * x_8 N + x_5 x_7} = {x_2 | \u2203 x_3 x_4 x_5 x_6, <L0> x_3 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a x_6 \u2227 x_2 = fun x_7 \u21a6 x_6 fun x_8 \u21a6 max 0 ((x_4.mulVec x_7 + x_5) x_8)}",
+  "Agent068": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8, \u2200 (x_9 : Fin N \u2192 \u211d), x_4 x_6 x_9 = \u2211 N, x_7 N * x_9 N + x_8) \u2227 (\u2200 (x_6 : Fin x_3), Convex \u211d (x_5 x_6)) \u2227 \u22c3 N, x_5 N = Set.univ \u2227 \u2200 (x_6 : Fin x_3), \u2200 x_7 \u2208 x_5 x_6, x_2 x_7 = x_4 x_6 x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, \u2203 x_4, x_2 = fun x_5 \u21a6 \u2211 x_6 \u2208 Finset.range (x_4.1 x_3), (x_4.4 x_3).1 0 x_6 * <L0> x_4.1 x_4.4 x_3 (fun x_7 \u21a6 if x_8 : x_7 < N then x_5 \u27e8x_7, x_8\u27e9 else 0) x_6 + (x_4.4 x_3).2 0}",
+  "Agent069": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (N : Fin N \u2192 \u211d) in nhds x_5, x_2 N = x_4 x_6 N} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, \u2203 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), x_2 x_5 = x_4.eval x_5 0}",
+  "Agent070": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (N : Fin N \u2192 \u211d) in nhds x_5, x_2 N = x_4 x_6 N} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent071": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2203 x_7 \u2208 nhds x_5, Set.EqOn x_2 (x_4 x_6) x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, \u2203 x_4, \u2203 (x_5 : x_4 0 = N) (x_6 : x_4 (Fin.last (x_3 + 1)) = 1), \u2203 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), \u2203 x_9, x_9 0 = x_8 \u2218 Fin.cast x_5 \u2227 (\u2200 (N : Fin (x_3 + 1)), \u2191N < x_3 \u2192 x_9 N.succ = fun x_11 \u21a6 max 0 (\u2211 x_12, (x_7 N).1 x_11 x_12 * x_9 N.castSucc x_12 + (x_7 N).2 x_11)) \u2227 (\u2200 (N : Fin (x_3 + 1)), \u2191N = x_3 \u2192 x_9 N.succ = fun x_11 \u21a6 \u2211 x_12, (x_7 N).1 x_11 x_12 * x_9 N.castSucc x_12 + (x_7 N).2 x_11) \u2227 x_2 x_8 = x_9 (Fin.last (x_3 + 1)) (Fin.cast (<L0> x_3 x_4 x_6) 0)}",
+  "Agent072": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8 x_9, x_4 x_6 = {x_10 | \u2200 (x_11 : Fin x_7), \u2211 N, x_8 x_11 N * x_10 N \u2264 x_9 x_11}) \u2227 (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8, x_5 x_6 = fun x_9 \u21a6 \u2211 N, x_7 N * x_9 N + x_8) \u2227 \u22c3 N, x_4 N = Set.univ \u2227 \u2200 (x_6 : Fin x_3), \u2200 x_7 \u2208 x_4 x_6, x_2 x_7 = x_5 x_6 x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent073": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3, \u2200 (x_4 : Fin N \u2192 \u211d), \u2203 x_5 \u2208 x_3, \u2203 x_6 \u2208 nhds x_4, \u2200 x_7 \u2208 x_6, x_2 x_7 = (x_5.1.mulVec x_7 + x_5.2) 0} = {x_2 | \u2203 x_3 x_4 x_5, <L0> x_3 1 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a x_5 \u2227 (fun N x_6 \u21a6 x_2 N) = x_5 \u2218 (fun N x_6 \u21a6 max 0 (N x_6)) \u2218 fun x_6 \u21a6 x_4.1.mulVec x_6 + x_4.2}",
+  "Agent074": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, (\u2200 (x_6 : x_3), \u2203 x_7 x_8 x_9 x_10, x_5 x_6 = {x_11 | \u2200 (x_12 : x_7), \u2211 N, x_9 x_12 N * x_11 N \u2264 x_10 x_12}) \u2227 \u22c3 N, x_5 N = Set.univ \u2227 \u2200 (x_6 : x_3), \u2203 x_7, (\u2203 x_8 x_9, \u2200 (x_10 : Fin N \u2192 \u211d), x_7 x_10 = x_9 + \u2211 N, x_8 N * x_10 N) \u2227 Set.EqOn x_2 x_7 (x_5 x_6)} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, \u2203 x_4, x_2 = x_4.eval}",
+  "Agent075": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2203 x_7 \u2208 nhds x_5, Set.EqOn x_2 (x_4 x_6) x_7} = {x_2 | \u2203 x_3, \u2200 (x_4 : Fin N \u2192 \u211d), x_2 x_4 = x_3.eval x_4}",
+  "Agent076": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = x_7 + \u2211 N, x_6 N * x_8 N) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, x_2 =\u1da0[nhds x_5] x_4 x_6} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> x_3 N x_2}",
+  "Agent077": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2203 x_7 > 0, \u2200 (x_8 : Fin N \u2192 \u211d), dist x_8 x_5 < x_7 \u2192 x_2 x_8 = x_4 x_6 x_8} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent078": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (N : Fin N \u2192 \u211d) in nhds x_5, x_2 N = x_4 x_6 N} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, \u2203 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), x_2 x_5 = (have N := fun x_6 \u21a6 \u2211 x_7 \u2208 Finset.range (x_4.1 x_3), x_4.4 x_3 x_6 x_7 * x_4.netForward x_3 (fun x_8 \u21a6 if x_9 : x_8 < N then x_5 \u27e8x_8, x_9\u27e9 else 0) x_7 + x_4.5 x_3 x_6; if x_3 + 1 = x_3 + 1 then N else fun x_6 \u21a6 max 0 (N x_6)) 0}",
+  "Agent079": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2203 x_7 > 0, \u2200 (x_8 : Fin N \u2192 \u211d), dist x_8 x_5 < x_7 \u2192 x_2 x_8 = x_4 x_6 x_8} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, \u2203 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), x_2 x_5 = x_4.eval x_5}",
+  "Agent080": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, (\u2200 (x_6 : x_3), \u2203 x_7, x_5 x_6 = fun x_8 \u21a6 \u2211 N, x_7.1 0 N * x_8 N + x_7.2 0) \u2227 \u2200 (x_6 : Fin N \u2192 \u211d), \u2203 x_7, x_2 =\u1da0[nhds x_6] x_5 x_7} = {x_2 | \u2203 x_3 x_4 x_5, <L0> x_3 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a x_5 \u2227 x_2 = fun x_6 \u21a6 x_5 fun x_7 \u21a6 max 0 (\u2211 N, x_4.1 x_7 N * x_6 N + x_4.2 x_7)}",
+  "Agent081": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, \u22c3 N, x_4 N = Set.univ \u2227 (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8 x_9, x_4 x_6 = {x_10 | \u2200 (x_11 : Fin x_7), \u2211 N, x_8 x_11 N * x_10 N \u2264 x_9 x_11}) \u2227 \u2200 (x_6 : Fin x_3), \u2200 x_7 \u2208 x_4 x_6, x_2 x_7 = ((x_5 x_6).1.mulVec x_7 + (x_5 x_6).2) 0} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent082": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2203 x_7 \u2208 nhds x_5, \u2200 x_8 \u2208 x_7, x_2 x_8 = x_4 x_6 x_8} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent083": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8, \u2200 (x_9 : Fin N \u2192 \u211d), x_5 x_6 x_9 = \u2211 N, x_7 N * x_9 N + x_8) \u2227 (\u2200 (x_6 : Fin x_3), Convex \u211d (x_4 x_6)) \u2227 (\u2200 (x_6 : Fin x_3), IsClosed (x_4 x_6)) \u2227 \u22c3 N, x_4 N = Set.univ \u2227 \u2200 (x_6 : Fin x_3), \u2200 x_7 \u2208 x_4 x_6, x_2 x_7 = x_5 x_6 x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, \u2203 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), x_2 x_5 = x_4.eval x_5}",
+  "Agent085": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, \u2200 (x_6 : Fin N \u2192 \u211d), \u2203 x_7, \u2200\u1da0 (x_8 : Fin N \u2192 \u211d) in nhds x_6, x_2 x_8 = \u2211 N, x_4 x_7 N * x_8 N + x_5 x_7} = {x_2 | \u2203 x_3 x_4 x_5, <L0> x_3 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a x_5 \u2227 \u2200 (x_6 : Fin N \u2192 \u211d), x_2 x_6 = x_5 fun x_7 \u21a6 max 0 ((x_4.1.mulVec x_6 + x_4.2) x_7)}",
+  "Agent086": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5 x_6, (\u2200 (x_7 : Fin x_3), \u2203 x_8 x_9 x_10, x_4 x_7 = {x_11 | \u2200 (x_12 : Fin x_8), \u2211 N, x_9 x_12 N * x_11 N \u2264 x_10 x_12}) \u2227 \u22c3 N, x_4 N = Set.univ \u2227 \u2200 (x_7 : Fin x_3), \u2200 x_8 \u2208 x_4 x_7, x_2 x_8 = \u2211 N, x_5 x_7 N * x_8 N + x_6 x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, x_2 \u2208 {x_4 | <L0> x_3 N 1 fun N x_5 \u21a6 x_4 N}}",
+  "Agent087": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, x_4 x_5 = fun x_8 \u21a6 \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (N : Fin N \u2192 \u211d) in nhds x_5, x_2 N = x_4 x_6 N} = {x_2 | \u2203 x_3 x_4 x_5 x_6, <L0> x_3 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a x_6 \u2227 x_2 = fun x_7 \u21a6 x_6 fun x_8 \u21a6 max 0 ((x_4.mulVec x_7 + x_5) x_8)}",
+  "Agent088": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7 x_8, x_4 x_5 = {x_9 | \u2200 (x_10 : Fin x_6), \u2211 N, x_7 x_10 N * x_9 N \u2264 x_8 x_10}) \u2227 \u22c3 N, x_4 N = Set.univ \u2227 \u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 x_8 \u2208 x_4 x_5, x_2 x_8 = \u2211 N, x_6 N * x_8 N + x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent089": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3, (\u2200 x_4 \u2208 x_3, \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_4 : Fin N \u2192 \u211d), \u2203 x_5 \u2208 x_3, \u2203 x_6 \u2208 nhds x_4, \u2200 x_7 \u2208 x_6, x_2 x_7 = x_5 x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent090": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8, \u2200 (x_9 : Fin N \u2192 \u211d), x_5 x_6 x_9 = \u2211 N, x_7 N * x_9 N + x_8) \u2227 (\u2200 (x_6 : Fin N \u2192 \u211d), \u2203 x_7, \u2200 x_8 \u2208 x_4 x_7, \u2211 N, x_8.1 N * x_6 N \u2264 x_8.2) \u2227 \u2200 (x_6 : Fin x_3) (x_7 : Fin N \u2192 \u211d), (\u2200 x_8 \u2208 x_4 x_6, \u2211 N, x_8.1 N * x_7 N \u2264 x_8.2) \u2192 x_2 x_7 = x_5 x_6 x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, \u2203 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), x_2 x_5 = x_4.eval x_5}",
+  "Agent091": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5 x_6, \u22c3 x_7, \u22c2 x_8, {x_9 | \u2211 N, (x_5 x_7 x_8).1 N * x_9 N \u2264 (x_5 x_7 x_8).2} = Set.univ \u2227 \u2200 (x_7 : Fin x_3) (x_8 : Fin N \u2192 \u211d), (\u2200 (x_9 : Fin (x_4 x_7)), x_8 \u2208 {x_10 | \u2211 N, (x_5 x_7 x_9).1 N * x_10 N \u2264 (x_5 x_7 x_9).2}) \u2192 x_2 x_8 = \u2211 x_10, (x_6 x_7).1 0 x_10 * x_8 x_10 + (x_6 x_7).2 0} = {x_2 | \u2203 x_3 \u2264 Nat.clog 3 (N - 1) + 1, <L0> N x_3 x_2}",
+  "Agent092": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (x_7 : Fin N \u2192 \u211d) in nhds x_5, x_2 x_7 = ((x_4 x_6).1.mulVec x_7 + (x_4 x_6).2) 0} = {x_2 | \u2203 x_3, x_2 = x_3.eval}",
+  "Agent093": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, \u22c3 N, x_4 N = Set.univ \u2227 (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8, x_4 x_6 = {x_9 | \u2200 (x_10 : Fin x_7), \u2211 x_11, (x_8 x_10).1 0 x_11 * x_9 x_11 + (x_8 x_10).2 0 \u2264 0}) \u2227 \u2200 (x_6 : Fin x_3), \u2200 x_7 \u2208 x_4 x_6, x_2 x_7 = \u2211 x_9, (x_5 x_6).1 0 x_9 * x_7 x_9 + (x_5 x_6).2 0} = {x_2 | \u2203 x_3, x_3.length \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1 \u2227 \u2203 x_4, x_2 = fun x_5 \u21a6 x_4.apply x_5 0}",
+  "Agent094": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, x_4 x_5 = fun x_8 \u21a6 x_7 + \u2211 N, x_6 N * x_8 N) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2203 x_7 \u2208 nhds x_5, Set.EqOn x_2 (x_4 x_6) x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent095": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5 x_6, \u22c3 N, x_6 N = Set.univ \u2227 (\u2200 (x_7 : Fin x_3), IsClosed (x_6 x_7)) \u2227 (\u2200 (x_7 : Fin x_3), Convex \u211d (x_6 x_7)) \u2227 \u2200 (x_7 : Fin x_3), \u2200 x_8 \u2208 x_6 x_7, x_2 x_8 = \u2211 N, x_4 x_7 N * x_8 N + x_5 x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 \u2191(N - 1)\u2309\u208a + 1, \u2203 x_4, <L0> x_3 x_4 \u2227 \u2200 (N : Fin N \u2192 \u211d), x_2 N = x_4 N 0}",
+  "Agent096": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (x_7 : Fin N \u2192 \u211d) in nhds x_5, x_2 x_7 = ((x_4 x_6).1.mulVec x_7 + (x_4 x_6).2) 0} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, \u2203 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), x_2 x_5 = x_4.eval x_5 0}",
+  "Agent097": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, \u2200 (x_6 : Fin N \u2192 \u211d), \u2203 x_7, \u2200\u1da0 (x_8 : Fin N \u2192 \u211d) in nhds x_6, x_2 x_8 = \u2211 N, x_4 x_7 N * x_8 N + x_5 x_7} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> N x_3 x_2}",
+  "Agent098": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4 x_5, (\u2200 (x_6 : Fin x_3), \u2203 x_7 x_8 x_9, x_4 x_6 = {x_10 | \u2200 (x_11 : Fin x_7), \u2211 N, x_8 x_11 N * x_10 N \u2264 x_9 x_11}) \u2227 Set.univ = \u22c3 N, x_4 N \u2227 \u2200 (x_6 : Fin x_3), \u2200 x_7 \u2208 x_4 x_6, x_2 x_7 = \u2211 N, (x_5 x_6).1 N * x_7 N + (x_5 x_6).2} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, <L0> x_3 N x_2}",
+  "Agent099": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6 x_7, \u2200 (x_8 : Fin N \u2192 \u211d), x_4 x_5 x_8 = \u2211 N, x_6 N * x_8 N + x_7) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, \u2200\u1da0 (N : Fin N \u2192 \u211d) in nhds x_5, x_2 N = x_4 x_6 N} = {x_2 | \u2203 x_3 \u2264 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a + 1, \u2203 x_4, \u2200 (x_5 : Fin N \u2192 \u211d), x_4.eval x_5 = x_2 x_5}",
+  "Agent100": "\u2200N, {x_2 | Continuous x_2 \u2227 \u2203 x_3 x_4, (\u2200 (x_5 : Fin x_3), \u2203 x_6, \u2200 (x_7 : Fin N \u2192 \u211d), x_4 x_5 x_7 = (x_6.1.mulVec x_7 + x_6.2) 0) \u2227 \u2200 (x_5 : Fin N \u2192 \u211d), \u2203 x_6, x_2 =\u1da0[nhds x_5] x_4 x_6} = {x_2 | \u2203 x_3 x_4 x_5, <L0> x_3 \u2308Real.logb 3 (\u2191N - 1)\u2309\u208a x_5 \u2227 \u2200 (x_6 : Fin N \u2192 \u211d), x_2 x_6 = x_5 fun x_7 \u21a6 max 0 ((x_4.1.mulVec x_6 + x_4.2) x_7)}"
+ },
+ "ppdeep": {
+  "Agent001": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m P a b, (\u2200 (i : Fin m), \u2203 m H, (\u2200 (i : Fin m), \u2203 a b, H i = {x | \u2211 i, a i * x i \u2264 b}) \u2227 P i = \u22c2 i, H i) \u2227 \u22c3 i, P i = Set.univ \u2227 \u2200 (i : Fin m), \u2200 x \u2208 P i, f x = \u2211 j, a i j * x j + b i} = {f | \u2203 m T g, Agent001.IsReLUNet m \u2308Real.logb 3 \u2191(n - 1)\u2309\u208a g \u2227 \u2200 (x : Fin n \u2192 \u211d), f x = g fun i \u21a6 max 0 ((T.1.mulVec x + T.2) i)}",
+  "Agent002": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m g, \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2203 \u03b5 > 0, \u2200 (y : Fin n \u2192 \u211d), dist y x < \u03b5 \u2192 f y = ((g i).1.mulVec y + (g i).2) 0} = {f | \u2203 m T g, Agent002.ComputesWithHiddenLayers m \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a g \u2227 f = g \u2218 (fun x i \u21a6 max 0 (x i)) \u2218 fun x \u21a6 T.1.mulVec x + T.2}",
+  "Agent003": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m g, (\u2200 (i : Fin m), \u2203 a c, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 i, a i * x i + c) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = g i y} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, f \u2208 Agent003.ReLUnExact n k'}",
+  "Agent004": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m g, \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = \u2211 i_1, (g i).1 i_1 * y i_1 + (g i).2} = {f | \u2203 j \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, \u2203 net, f = net.eval}",
+  "Agent005": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 F, (\u2200 g \u2208 F, \u2203 w c, g = fun x \u21a6 \u2211 i, w i * x i + c) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 g \u2208 F, \u2203 U, IsOpen U \u2227 x \u2208 U \u2227 Set.EqOn f g U} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent005.computesReLU k' n f}",
+  "Agent006": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m g, \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = \u2211 i_1, (g i).1 i_1 * y i_1 + (g i).2} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent006.ComputesHidden n k' f}",
+  "Agent007": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 S, \u2200 (x : Fin n \u2192 \u211d), \u2203 a \u2208 S, \u2203 U, IsOpen U \u2227 x \u2208 U \u2227 \u2200 y \u2208 U, f y = \u2211 i, a.1 i * y i + a.2} = {f | \u2203 j \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent007.RepresentableVec n j 1 fun x x_1 \u21a6 f x}",
+  "Agent008": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m P g, (\u2200 (i : Fin m), \u2203 m A b, P i = {x | A.mulVec x \u2264 b}) \u2227 \u22c3 i, P i = Set.univ \u2227 \u2200 (i : Fin m), \u2200 x \u2208 P i, f x = ((g i).1.mulVec x + (g i).2) 0} = {f | \u2203 j \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent008.NetworkComputes n j f}",
+  "Agent009": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m g, (\u2200 (i : Fin m), \u2203 a c, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 j, a j * x j + c) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = g i y} = {f | \u2203 k' \u2264 \u2308Real.logb 3 \u2191(n - 1)\u2309\u208a + 1, Agent009.ComputesWithHiddenLayers k' n f}",
+  "Agent010": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m \u03c6, \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = ((\u03c6 i).1.mulVec y + (\u03c6 i).2) 0} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent010.NetComputes n k' f}",
+  "Agent011": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m g, (\u2200 (i : Fin m), \u2203 a b, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 i, a i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2203 U \u2208 nhds x, Set.EqOn f (g i) U} = {f | \u2203 j \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, \u2203 net, f = net.eval}",
+  "Agent012": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m g, (\u2200 (i : Fin m), \u2203 a b, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 i, a i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, f =\u1da0[nhds x] g i} = {f | \u2203 j \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent012.IsReLUNetExact n j f}",
+  "Agent013": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 r g, \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2203 \u03b5 > 0, \u2200 (y : Fin n \u2192 \u211d), dist y x < \u03b5 \u2192 f y = ((g i).1.mulVec y + (g i).2) 0} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent013.IsReLURep n k' f}",
+  "Agent014": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 \u03b9 x pieces, \u22c3 i, {x | \u2200 (j : Fin (pieces i).2), \u2211 i_1, (pieces i).3 j i_1 * x i_1 \u2264 (pieces i).4 j} = Set.univ \u2227 \u2200 (i : \u03b9), \u2200 x \u2208 {x | \u2200 (j : Fin (pieces i).2), \u2211 i_1, (pieces i).3 j i_1 * x i_1 \u2264 (pieces i).4 j}, f x = ((pieces i).1.1.mulVec x + (pieces i).1.2) 0} = {f | \u2203 m T g, Agent014.IsReLUNetFun m \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a g \u2227 \u2200 (x : Fin n \u2192 \u211d), f x = g fun i \u21a6 max 0 ((T.1.mulVec x + T.2) i)}",
+  "Agent015": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m g, \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2203 \u03b5 > 0, \u2200 (y : Fin n \u2192 \u211d), dist y x < \u03b5 \u2192 f y = ((g i).1.mulVec y + (g i).2) 0} = {f | \u2203 m T g, Agent015.Represents m \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a g \u2227 \u2200 (x : Fin n \u2192 \u211d), f x = g fun i \u21a6 max 0 ((T.1.mulVec x + T.2) i)}",
+  "Agent016": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m g, (\u2200 (i : Fin m), \u2203 a c, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 i, a i * x i + c) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = g i y} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent016.ComputesHidden n k' f}",
+  "Agent017": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 N g, \u2200 (x : Fin n \u2192 \u211d), \u2203 U i, U \u2208 nhds x \u2227 \u2200 y \u2208 U, f y = ((g i).1.mulVec y + (g i).2) 0} = {f | \u2203 k' \u2264 \u2308Real.logb 3 \u2191(n - 1)\u2309\u208a + 1, Agent017.ComputesWithLayers n k' f}",
+  "Agent018": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m g, \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = \u2211 i_1, (g i).1 i_1 * y i_1 + (g i).2} = {f | \u2203 j \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, \u2203 N, f = N.eval}",
+  "Agent019": "\u2200 (n : \u2115),   3 \u2264 n \u2192     {f | Continuous f \u2227 \u2203 m g, (\u2200 (j : Fin m), \u2203 a b, \u2200 (x : Fin n \u2192 \u211d), g j x = \u2211 i, a i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 j, \u2203 U \u2208 nhds x, \u2200 y \u2208 U, f y = g j y} =       {f |         \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1,           \u2203 net,             \u2200 (x : Fin n \u2192 \u211d),               f x =                 Eq.rec (motive := fun x h \u21a6 Fin x \u2192 \u211d)                   (if h : k' < k' + 1 then                     have y := fun i \u21a6 (net.4 k' h).1.mulVec (net.vecAt x k') i + (net.4 k' h).2 i;                     if k' < k' then fun i \u21a6 max 0 (y i) else y                   else fun x \u21a6 0)                   net.width_last \u27e80, Agent019.ReLUNetwork.eval._proof_2\u27e9}",
+  "Agent021": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 N P a b, (\u2200 (i : Fin N), \u2203 M c d, P i = {x | \u2200 (l : Fin M), \u2211 j, c l j * x j \u2264 d l}) \u2227 \u22c3 i, P i = Set.univ \u2227 \u2200 (i : Fin N), \u2200 x \u2208 P i, f x = \u2211 j, a i j * x j + b i} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent021.ComputesReLU n k' f}",
+  "Agent022": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m w b, \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2203 U \u2208 nhds x, \u2200 y \u2208 U, f y = \u2211 j, w i j * y j + b i} = {f | \u2203 j \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent022.ExactReLUComputable j n f}",
+  "Agent023": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m g, (\u2200 (j : Fin m), \u2203 a b, g j = fun x \u21a6 \u2211 i, a i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 j U, IsOpen U \u2227 x \u2208 U \u2227 \u2200 y \u2208 U, f y = g j y} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent023.IsReLUNetworkFunc k' n f}",
+  "Agent024": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 N pieces, \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = ((pieces i).1.mulVec y + (pieces i).2) 0} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent024.NetComputes n k' f}",
+  "Agent025": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m g, (\u2200 (i : Fin m), \u2203 a c, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 j, a j * x j + c) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = g i y} = {f | \u2203 m T g, Agent025.NetworkComputable m \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a g \u2227 \u2200 (x : Fin n \u2192 \u211d), f x = g fun i \u21a6 max 0 (\u2211 j, T.1 i j * x j + T.2 i)}",
+  "Agent026": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m S A c, (\u2200 (i : Fin m), \u2203 m a b, S i = \u22c2 i, {x | \u2211 j, a i j * x j \u2264 b i}) \u2227 \u22c3 i, S i = Set.univ \u2227 \u2200 (i : Fin m), \u2200 x \u2208 S i, f x = \u2211 j, A i j * x j + c i} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, \u2203 P, f = fun x \u21a6 Agent026.NetParams.eval k' P x 0}",
+  "Agent028": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 \u03b9 x T, \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = \u2211 i_1, (T i).1 i_1 * y i_1 + (T i).2} = {f | \u2203 k' \u2264 \u2308Real.logb 3 \u2191(n - 1)\u2309\u208a + 1, Agent028.IsReLUNetFun k' n 1 fun x x_1 \u21a6 f x}",
+  "Agent029": "\u2200 n \u2265 3,   {f | Continuous f \u2227 \u2203 m P, (\u2200 (i : Fin m), \u2203 m a b, P i = {x | \u2200 (i : Fin m), \u2211 j, a i j * x j \u2264 b i}) \u2227 \u22c3 i, P i = Set.univ \u2227 \u2200 (i : Fin m), \u2203 w c, \u2200 x \u2208 P i, f x = \u2211 j, w j * x j + c} =     {f |       \u2203 N,         \u2200 (x : Fin n \u2192 \u211d),           f x =             List.foldl               (fun v i \u21a6                 have out := fun i_1 \u21a6 (N.4 i).2 i_1 + \u2211 j \u2208 Finset.range (N.1 i.castSucc), (N.4 i).1 i_1 j * v j;                 if \u2191i < \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1 then fun i \u21a6 max 0 (out i) else out)               (fun j \u21a6 if h : j < n then x \u27e8j, h\u27e9 else 0) (List.finRange (\u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1 + 1)) 0}",
+  "Agent030": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m P g, (\u2200 (i : Fin m), \u2203 l H, (\u2200 (j : Fin l), \u2203 a b, H j = {x | \u2211 i, a i * x i \u2264 b}) \u2227 P i = \u22c2 j, H j) \u2227 (\u2200 (i : Fin m), \u2203 a c, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 i, a i * x i + c) \u2227 \u22c3 i, P i = Set.univ \u2227 \u2200 (i : Fin m), \u2200 x \u2208 P i, f x = g i x} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent030.ComputesWithHiddenLayers n k' f}",
+  "Agent031": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m T, \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2203 \u03b5 > 0, \u2200 (y : Fin n \u2192 \u211d), dist y x < \u03b5 \u2192 f y = \u2211 j, (T i).1 0 j * y j + (T i).2 0} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent031.IsReLUComputable n k' f}",
+  "Agent032": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 \u03b9, \u2203 (_ : Finite \u03b9), \u2203 P, (\u2200 (i : \u03b9), \u2203 m A b, P i = {x | \u2200 (j : Fin m), \u2211 i, A j i * x i \u2264 b j}) \u2227 \u22c3 i, P i = Set.univ \u2227 \u2200 (i : \u03b9), \u2203 A c, \u2200 x \u2208 P i, f x = \u2211 i, A i * x i + c} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent032.ReLUComputable n k' f}",
+  "Agent033": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m a b, \u2200 (x : Fin n \u2192 \u211d), \u2203 i U, IsOpen U \u2227 x \u2208 U \u2227 \u2200 y \u2208 U, f y = \u2211 j, a i j * y j + b i} = {f | \u2203 j \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent033.ComputesReLU n j f}",
+  "Agent034": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m P A, \u22c3 i, P i = Set.univ \u2227 (\u2200 (i : Fin m), \u2203 \u03b9 w b, P i = {x | \u2200 (j : Fin \u03b9), \u2211 l, w j l * x l + b j \u2264 0}) \u2227 (\u2200 (i : Fin m), \u2203 w b, \u2200 (x : Fin n \u2192 \u211d), A i x = \u2211 i, w i * x i + b) \u2227 \u2200 (i : Fin m), \u2200 x \u2208 P i, f x = A i x} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, \u2203 net, \u2200 (x : Fin n \u2192 \u211d), f x = net.eval x 0}",
+  "Agent035": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m g, \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = ((g i).1.mulVec y + (g i).2) 0} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, \u2203 net, \u2200 (x : Fin n \u2192 \u211d), f x = net.eval x 0}",
+  "Agent036": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m g, (\u2200 (i : Fin m), \u2203 T, \u2200 (x : Fin n \u2192 \u211d), g i x = (T.1.mulVec x + T.2) 0) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2203 U \u2208 nhds x, \u2200 y \u2208 U, f y = g i y} = {f | \u2203 j \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent036.NetOutput n j f}",
+  "Agent037": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m P g, (\u2200 (i : Fin m), \u2203 m a b, P i = {x | \u2200 (i : Fin m), \u2211 j, a i j * x j \u2264 b i}) \u2227 (\u2200 (i : Fin m), \u2203 a b, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 i, a i * x i + b) \u2227 (\u2200 (x : Fin n \u2192 \u211d), \u2203 i, x \u2208 P i) \u2227 \u2200 (i : Fin m), \u2200 x \u2208 P i, f x = g i x} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent037.computesReLU k' n f}",
+  "Agent038": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 r a, (\u2200 (i : Fin r), \u2203 coef b, \u2200 (x : Fin n \u2192 \u211d), a i x = \u2211 i, coef i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2203 \u03b5 > 0, \u2200 (y : Fin n \u2192 \u211d), dist y x < \u03b5 \u2192 f y = a i y} = {f | \u2203 m T g, Agent038.ComputesHidden \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a m g \u2227 f = fun x \u21a6 g fun i \u21a6 max 0 (\u2211 j, T.1 i j * x j + T.2 i)}",
+  "Agent039": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 \u03b9 x w b, \u2200 (x : Fin n \u2192 \u211d), \u2203 i U, IsOpen U \u2227 x \u2208 U \u2227 \u2200 y \u2208 U, f y = \u2211 j, w i j * y j + b i} = {f | \u2203 j \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent039.NetProp n j f}",
+  "Agent040": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 S, \u2200 (x : Fin n \u2192 \u211d), \u2203 T \u2208 S, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = \u2211 j, T.1 0 j * y j + T.2 0} = {f | \u2203 m T g, Agent040.NetworkComputes \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a m g \u2227 \u2200 (x : Fin n \u2192 \u211d), f x = g fun i \u21a6 max 0 (\u2211 j, T.1 i j * x j + T.2 i)}",
+  "Agent041": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m g, (\u2200 (j : Fin m), \u2203 a c, \u2200 (x : Fin n \u2192 \u211d), g j x = \u2211 i, a i * x i + c) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 j, f x = g j x} = {f | \u2203 k' \u2264 \u2308Real.logb 3 \u2191(n - 1)\u2309\u208a + 1, \u2203 F, Agent041.NetFunc k' n 1 F \u2227 f = fun x \u21a6 F x 0}",
+  "Agent042": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m P A c, (\u2200 (i : Fin m), \u2203 m a b, P i = {x | \u2200 (j : Fin m), \u2211 i, a j i * x i \u2264 b j}) \u2227 \u22c3 i, P i = Set.univ \u2227 \u2200 (i : Fin m), \u2200 x \u2208 P i, f x = \u2211 k, A i k * x k + c i} = {f | \u2203 layers, layers.length = \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1 + 1 \u2227 Option.map (fun x \u21a6 x.1) layers.head? = some n \u2227 Option.map (fun x \u21a6 x.2) layers.getLast? = some 1 \u2227 List.Chain' (fun T1 T2 \u21a6 T1.2 = T2.1) layers \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 y, Agent042.runLayers layers \u27e8n, x\u27e9 = \u27e81, y\u27e9 \u2227 f x = y 0}",
+  "Agent043": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 N A c, \u2200 (x : Fin n \u2192 \u211d), \u2203 r > 0, \u2203 i, \u2200 (y : Fin n \u2192 \u211d), dist y x < r \u2192 f y = \u2211 j, A i j * y j + c i} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent043.NetworkComputes 1 k' n fun x x_1 \u21a6 f x}",
+  "Agent044": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 N A b, \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = \u2211 j, A i j * y j + b i} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent044.NetComputes n k' f}",
+  "Agent045": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m g, (\u2200 (i : Fin m), \u2203 a b, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 i, a i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = g i y} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent045.ComputesWithHidden k' n f}",
+  "Agent046": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m g P, (\u2200 (i : Fin m), \u2203 c d, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 i, c i * x i + d) \u2227 (\u2200 (i : Fin m), \u2203 m a b, P i = \u22c2 i, {x | \u2211 j, a i j * x j \u2264 b i}) \u2227 \u22c3 i, P i = Set.univ \u2227 \u2200 (i : Fin m), \u2200 x \u2208 P i, f x = g i x} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent046.NetComputes n k' f}",
+  "Agent047": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m g, (\u2200 (i : Fin m), \u2203 a b, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 i, a i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = g i y} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent047.NetComputes n 1 k' fun x x_1 \u21a6 f x}",
+  "Agent048": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m g, (\u2200 (i : Fin m), \u2203 a b, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 i, a i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = g i y} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent048.Computes k' n f}",
+  "Agent049": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 r P, (\u2200 (i : Fin r), \u2203 r A b, P i = {x | \u2200 (i : Fin r), A.mulVec x i \u2264 b i}) \u2227 \u22c3 i, P i = Set.univ \u2227 \u2200 (i : Fin r), \u2203 g, (\u2203 a b, g = fun x \u21a6 \u2211 i, a i * x i + b) \u2227 Set.EqOn f g (P i)} = {f | \u2203 j \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent049.ComputesK n j f}",
+  "Agent050": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m P g, (\u2200 (i : Fin m), \u2203 m A b, P i = {x | \u2200 (i : Fin m), \u2211 j, A i j * x j \u2264 b i}) \u2227 (\u2200 (i : Fin m), \u2203 a c, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 j, a j * x j + c) \u2227 \u22c3 i, P i = Set.univ \u2227 \u2200 (i : Fin m), \u2200 x \u2208 P i, f x = g i x} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, \u2203 net, f = net.eval}",
+  "Agent051": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m g, (\u2200 (j : Fin m), \u2203 a b, \u2200 (x : Fin n \u2192 \u211d), g j x = \u2211 i, a i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 j, \u2203 \u03b5 > 0, \u2200 (y : Fin n \u2192 \u211d), dist y x < \u03b5 \u2192 f y = g j y} = {f | \u2203 m T g, Agent051.IsReLUComputable m \u2308Real.logb 3 \u2191(n - 1)\u2309\u208a g \u2227 \u2200 (x : Fin n \u2192 \u211d), f x = g fun i \u21a6 max 0 ((T.1.mulVec x + T.2) i)}",
+  "Agent052": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m mi H g, \u22c3 i, \u22c2 i_1, {x | \u2211 j, (H i i_1).1 j * x j \u2264 (H i i_1).2} = Set.univ \u2227 \u2200 (i : Fin m), \u2200 x \u2208 \u22c2 i_1, {x | \u2211 j, (H i i_1).1 j * x j \u2264 (H i i_1).2}, f x = \u2211 j, (g i).1 0 j * x j + (g i).2 0} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, \u2203 w layers, \u2203 (h0 : w 0 = n) (hk : w (k' + 1) = 1), \u2200 (x : Fin n \u2192 \u211d), f x = cast (Agent052.Represents._proof_1 k' w hk) (fun i \u21a6 \u2211 j, (layers k').1 i j * (if k' = 0 then Agent052.netEval w layers k' (cast (Agent052.Represents._proof_2 n w h0) x) else fun i \u21a6 max 0 (Agent052.netEval w layers k' (cast (Agent052.Represents._proof_2 n w h0) x) i)) j + (layers k').2 i) 0}",
+  "Agent053": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 N pieces, (\u2200 (i : Fin N), \u2203 w b, \u2200 (x : Fin n \u2192 \u211d), pieces i x = \u2211 i, w i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2203 \u03b5 > 0, \u2200 (y : Fin n \u2192 \u211d), dist y x < \u03b5 \u2192 f y = pieces i y} = {f | \u2203 j \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent053.computesReLUExact j n f}",
+  "Agent054": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m P a, (\u2200 (i : Fin m), Convex \u211d (P i)) \u2227 (\u2200 (i : Fin m), IsClosed (P i)) \u2227 \u22c3 i, P i = Set.univ \u2227 (\u2200 (i : Fin m), \u2203 w b, a i = fun x \u21a6 \u2211 i, w i * x i + b) \u2227 \u2200 (i : Fin m), \u2200 x \u2208 P i, f x = a i x} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent054.NetComputes k' n f}",
+  "Agent055": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m g, (\u2200 (i : Fin m), \u2203 a b, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 j, a j * x j + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2203 U \u2208 nhds x, Set.EqOn f (g i) U} = {f | \u2203 j \u2264 \u2308Real.logb 3 \u2191(n - 1)\u2309\u208a + 1, Agent055.ComputedByReLUNet n j f}",
+  "Agent056": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m g, \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = \u2211 i_1, (g i).1 i_1 * y i_1 + (g i).2} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, \u2203 net, \u2200 (x : Fin n \u2192 \u211d), f x = net.compute x}",
+  "Agent057": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 \u03b9 x S A, (\u2200 (i : \u03b9), \u2203 \u03b9 x a b, S i = \u22c2 i, {x | (a i) x \u2264 b i}) \u2227 \u22c3 i, S i = Set.univ \u2227 \u2200 (i : \u03b9), \u2200 x \u2208 S i, f x = (A i) x} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent057.ComputesReLU n 1 k' fun x x_1 \u21a6 f x}",
+  "Agent058": "\u2200 (n : \u2115),   3 \u2264 n \u2192     {f | Continuous f \u2227 \u2203 m g, \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = ((g i).1.mulVec y + (g i).2) 0} =       {f |         \u2203 j \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1,           \u2203 hidden,             \u2203 (hwj :               (match j + 1 with                 | 0 => n                 | i.succ => hidden i) =                 1),               \u2203 T,                 f = fun x \u21a6                   (have y :=                       (T j).1.mulVec                           (Agent058.netApply                             (fun x \u21a6                               match x with                               | 0 => n                               | i.succ => hidden i)                             T j j x) +                         (T j).2;                     if j + 1 \u2264 j then fun i \u21a6 max 0 (y i) else y)                     (Fin.cast (Agent058.ReLUn._proof_1 n j hidden hwj) 0)}",
+  "Agent059": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m S g, (\u2200 (i : Fin m), \u2203 m a b, S i = {x | \u2200 (i : Fin m), \u2211 j, a i j * x j \u2264 b i}) \u2227 (\u2200 (i : Fin m), \u2203 w c, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 j, w j * x j + c) \u2227 \u22c3 i, S i = Set.univ \u2227 \u2200 (i : Fin m), \u2200 x \u2208 S i, f x = g i x} = {f | \u2203 j \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent059.ReLURepresentable n j f}",
+  "Agent060": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 S, (\u2200 g \u2208 S, \u2203 a b, \u2200 (x : Fin n \u2192 \u211d), g x = \u2211 i, a i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 g \u2208 S, \u2203 U, IsOpen U \u2227 x \u2208 U \u2227 Set.EqOn f g U} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent060.represents n k' f}",
+  "Agent061": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 S, (\u2200 h \u2208 S, \u2203 a b, \u2200 (x : Fin n \u2192 \u211d), h x = \u2211 i, a i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 h \u2208 S, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = h y} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent061.NetComputes k' n f}",
+  "Agent062": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m S g, (\u2200 (i : Fin m), \u2203 m L b, S i = {x | \u2200 (j : Fin m), \u2211 i, L j i * x i \u2264 b j}) \u2227 (\u2200 (i : Fin m), \u2203 a c, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 i, a i * x i + c) \u2227 \u22c3 i, S i = Set.univ \u2227 \u2200 (i : Fin m), \u2200 x \u2208 S i, f x = g i x} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent062.NetComputes n k' f}",
+  "Agent063": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m P g, (\u2200 (j : Fin m), \u2203 m a b, P j = {x | \u2200 (j : Fin m), \u2211 i, a j i * x i + b j \u2264 0}) \u2227 (\u2200 (j : Fin m), \u2203 c b, \u2200 (x : Fin n \u2192 \u211d), g j x = \u2211 i, c i * x i + b) \u2227 \u22c3 j, P j = Set.univ \u2227 \u2200 (j : Fin m), \u2200 x \u2208 P j, f x = g j x} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent063.Represents n k' f}",
+  "Agent064": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m a b, \u2200 (x : Fin n \u2192 \u211d), \u2203 i U, IsOpen U \u2227 x \u2208 U \u2227 \u2200 y \u2208 U, f y = \u2211 j, a i j * y j + b i} = {f | \u2203 L, L.length = \u2308Real.logb 3 \u2191(n - 1)\u2309\u208a + 1 + 1 \u2227 \u2200 (x : Fin n \u2192 \u211d), Agent064.evalLayers L \u27e8n, x\u27e9 = \u27e81, fun x_1 \u21a6 f x\u27e9}",
+  "Agent065": "\u2200 n \u2265 3,   {f | Continuous f \u2227 \u2203 m g, (\u2200 (i : Fin m), \u2203 a b, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 i, a i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = g i y} =     {f |       \u2203 N,         \u2200 (x : Fin n \u2192 \u211d),           (have out :=                 (N.4 (\u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1)).1.mulVec                     (have out := (N.4 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a).1.mulVec (N.forward \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a x) + (N.4 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a).2;                     if \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1 = \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1 + 1 then out else fun i \u21a6 max 0 (out i)) +                   (N.4 (\u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1)).2;               if \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1 + 1 = \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1 + 1 then out else fun i \u21a6 max 0 (out i))               (Fin.cast (Agent065.ReLUNetwork.output._proof_1 N) 0) =             f x}",
+  "Agent066": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m g, \u2200 (x : Fin n \u2192 \u211d), \u2203 i, f =\u1da0[nhds x] \u21d1(g i)} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent066.ReLUComputable n k' f}",
+  "Agent067": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m w b, \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = \u2211 j, w i j * y j + b i} = {f | \u2203 m W c h, Agent067.Represents m \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a h \u2227 f = fun x \u21a6 h fun i \u21a6 max 0 ((W.mulVec x + c) i)}",
+  "Agent068": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m pieces region, (\u2200 (i : Fin m), \u2203 a b, \u2200 (x : Fin n \u2192 \u211d), pieces i x = \u2211 i, a i * x i + b) \u2227 (\u2200 (i : Fin m), Convex \u211d (region i)) \u2227 \u22c3 i, region i = Set.univ \u2227 \u2200 (i : Fin m), \u2200 x \u2208 region i, f x = pieces i x} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, \u2203 net, f = fun x \u21a6 \u2211 j \u2208 Finset.range (net.1 k'), (net.4 k').1 0 j * Agent068.networkForward net.1 net.4 k' (fun i \u21a6 if h : i < n then x \u27e8i, h\u27e9 else 0) j + (net.4 k').2 0}",
+  "Agent069": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m g, (\u2200 (i : Fin m), \u2203 a b, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 i, a i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = g i y} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, \u2203 net, \u2200 (x : Fin n \u2192 \u211d), f x = net.eval x 0}",
+  "Agent070": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m g, (\u2200 (i : Fin m), \u2203 a b, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 i, a i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = g i y} = {f | \u2203 j \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent070.NetworkComputes n j f}",
+  "Agent071": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m g, (\u2200 (j : Fin m), \u2203 a b, \u2200 (x : Fin n \u2192 \u211d), g j x = \u2211 i, a i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 j, \u2203 U \u2208 nhds x, Set.EqOn f (g j) U} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, \u2203 w, \u2203 (h0 : w 0 = n) (hL : w (Fin.last (k' + 1)) = 1), \u2203 T, \u2200 (x : Fin n \u2192 \u211d), \u2203 z, z 0 = x \u2218 Fin.cast h0 \u2227 (\u2200 (i : Fin (k' + 1)), \u2191i < k' \u2192 z i.succ = fun i_1 \u21a6 max 0 (\u2211 j, (T i).1 i_1 j * z i.castSucc j + (T i).2 i_1)) \u2227 (\u2200 (i : Fin (k' + 1)), \u2191i = k' \u2192 z i.succ = fun i_1 \u21a6 \u2211 j, (T i).1 i_1 j * z i.castSucc j + (T i).2 i_1) \u2227 f x = z (Fin.last (k' + 1)) (Fin.cast (Agent071.ComputesWithHiddenLayers._proof_2 k' w hL) 0)}",
+  "Agent072": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m P g, (\u2200 (i : Fin m), \u2203 m a b, P i = {x | \u2200 (i : Fin m), \u2211 j, a i j * x j \u2264 b i}) \u2227 (\u2200 (i : Fin m), \u2203 c d, g i = fun x \u21a6 \u2211 j, c j * x j + d) \u2227 \u22c3 i, P i = Set.univ \u2227 \u2200 (i : Fin m), \u2200 x \u2208 P i, f x = g i x} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent072.IsReLUNet n k' f}",
+  "Agent073": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 S, \u2200 (x : Fin n \u2192 \u211d), \u2203 T \u2208 S, \u2203 U \u2208 nhds x, \u2200 y \u2208 U, f y = (T.1.mulVec y + T.2) 0} = {f | \u2203 p T g, Agent073.IsReLURep p 1 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a g \u2227 (fun x x_1 \u21a6 f x) = g \u2218 (fun v i \u21a6 max 0 (v i)) \u2218 fun x \u21a6 T.1.mulVec x + T.2}",
+  "Agent074": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 \u03b9 x P, (\u2200 (i : \u03b9), \u2203 \u03b9 x a b, P i = {x | \u2200 (i : \u03b9), \u2211 j, a i j * x j \u2264 b i}) \u2227 \u22c3 i, P i = Set.univ \u2227 \u2200 (i : \u03b9), \u2203 g, (\u2203 a c, \u2200 (x : Fin n \u2192 \u211d), g x = c + \u2211 j, a j * x j) \u2227 Set.EqOn f g (P i)} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, \u2203 net, f = net.eval}",
+  "Agent075": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m g, (\u2200 (i : Fin m), \u2203 w b, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 i, w i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2203 U \u2208 nhds x, Set.EqOn f (g i) U} = {f | \u2203 net, \u2200 (x : Fin n \u2192 \u211d), f x = net.eval x}",
+  "Agent076": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m g, (\u2200 (i : Fin m), \u2203 a c, \u2200 (x : Fin n \u2192 \u211d), g i x = c + \u2211 i, a i * x i) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, f =\u1da0[nhds x] g i} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent076.ComputesWithHiddenLayers k' n f}",
+  "Agent077": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m g, (\u2200 (i : Fin m), \u2203 w b, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 i, w i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2203 \u03b5 > 0, \u2200 (y : Fin n \u2192 \u211d), dist y x < \u03b5 \u2192 f y = g i y} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent077.Computes n k' f}",
+  "Agent078": "\u2200 (n : \u2115),   3 \u2264 n \u2192     {f | Continuous f \u2227 \u2203 m g, (\u2200 (i : Fin m), \u2203 a c, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 i, a i * x i + c) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = g i y} =       {f |         \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1,           \u2203 net,             \u2200 (x : Fin n \u2192 \u211d),               f x =                 (have pre := fun j \u21a6 \u2211 l \u2208 Finset.range (net.1 k'), net.4 k' j l * net.netForward k' (fun i \u21a6 if h : i < n then x \u27e8i, h\u27e9 else 0) l + net.5 k' j;                   if k' + 1 = k' + 1 then pre else fun i \u21a6 max 0 (pre i))                   0}",
+  "Agent079": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m g, (\u2200 (i : Fin m), \u2203 a b, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 i, a i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2203 \u03b5 > 0, \u2200 (y : Fin n \u2192 \u211d), dist y x < \u03b5 \u2192 f y = g i y} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, \u2203 net, \u2200 (x : Fin n \u2192 \u211d), f x = net.eval x}",
+  "Agent080": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 \u03b9 x g, (\u2200 (i : \u03b9), \u2203 T, g i = fun x \u21a6 \u2211 i, T.1 0 i * x i + T.2 0) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, f =\u1da0[nhds x] g i} = {f | \u2203 m T g, Agent080.IsReLUComputable m \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a g \u2227 f = fun x \u21a6 g fun i \u21a6 max 0 (\u2211 i_1, T.1 i i_1 * x i_1 + T.2 i)}",
+  "Agent081": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m P g, \u22c3 i, P i = Set.univ \u2227 (\u2200 (i : Fin m), \u2203 m a b, P i = {x | \u2200 (j : Fin m), \u2211 i, a j i * x i \u2264 b j}) \u2227 \u2200 (i : Fin m), \u2200 x \u2208 P i, f x = ((g i).1.mulVec x + (g i).2) 0} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent081.NetworkComputes n k' f}",
+  "Agent082": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m g, (\u2200 (j : Fin m), \u2203 a b, \u2200 (x : Fin n \u2192 \u211d), g j x = \u2211 i, a i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 j, \u2203 U \u2208 nhds x, \u2200 y \u2208 U, f y = g j y} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent082.NetComputes n k' f}",
+  "Agent083": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m pieces affines, (\u2200 (i : Fin m), \u2203 a b, \u2200 (x : Fin n \u2192 \u211d), affines i x = \u2211 i, a i * x i + b) \u2227 (\u2200 (i : Fin m), Convex \u211d (pieces i)) \u2227 (\u2200 (i : Fin m), IsClosed (pieces i)) \u2227 \u22c3 i, pieces i = Set.univ \u2227 \u2200 (i : Fin m), \u2200 x \u2208 pieces i, f x = affines i x} = {f | \u2203 j \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, \u2203 net, \u2200 (x : Fin n \u2192 \u211d), f x = net.eval x}",
+  "Agent085": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m w c, \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = \u2211 j, w i j * y j + c i} = {f | \u2203 m T g, Agent085.Computes m \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a g \u2227 \u2200 (x : Fin n \u2192 \u211d), f x = g fun i \u21a6 max 0 ((T.1.mulVec x + T.2) i)}",
+  "Agent086": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 \u03b9 P A b, (\u2200 (j : Fin \u03b9), \u2203 m A c, P j = {x | \u2200 (j : Fin m), \u2211 i, A j i * x i \u2264 c j}) \u2227 \u22c3 j, P j = Set.univ \u2227 \u2200 (j : Fin \u03b9), \u2200 x \u2208 P j, f x = \u2211 i, A j i * x i + b j} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, f \u2208 {f | Agent086.NetComputes k' n 1 fun x x_1 \u21a6 f x}}",
+  "Agent087": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 r a, (\u2200 (i : Fin r), \u2203 c b, a i = fun x \u21a6 \u2211 i, c i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = a i y} = {f | \u2203 m A c g, Agent087.Represents m \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a g \u2227 f = fun x \u21a6 g fun i \u21a6 max 0 ((A.mulVec x + c) i)}",
+  "Agent088": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m P, (\u2200 (j : Fin m), \u2203 m a b, P j = {x | \u2200 (j : Fin m), \u2211 i, a j i * x i \u2264 b j}) \u2227 \u22c3 j, P j = Set.univ \u2227 \u2200 (j : Fin m), \u2203 a b, \u2200 x \u2208 P j, f x = \u2211 i, a i * x i + b} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent088.IsComputedByReLUNetwork n k' f}",
+  "Agent089": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 S, (\u2200 \u2113 \u2208 S, \u2203 a b, \u2200 (x : Fin n \u2192 \u211d), \u2113 x = \u2211 i, a i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 \u2113 \u2208 S, \u2203 U \u2208 nhds x, \u2200 y \u2208 U, f y = \u2113 y} = {f | \u2203 j \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent089.NNComputesExact n j f}",
+  "Agent090": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m P g, (\u2200 (j : Fin m), \u2203 a b, \u2200 (x : Fin n \u2192 \u211d), g j x = \u2211 i, a i * x i + b) \u2227 (\u2200 (x : Fin n \u2192 \u211d), \u2203 j, \u2200 H \u2208 P j, \u2211 i, H.1 i * x i \u2264 H.2) \u2227 \u2200 (j : Fin m) (x : Fin n \u2192 \u211d), (\u2200 H \u2208 P j, \u2211 i, H.1 i * x i \u2264 H.2) \u2192 f x = g j x} = {f | \u2203 j \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, \u2203 N, \u2200 (x : Fin n \u2192 \u211d), f x = N.eval x}",
+  "Agent091": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 p m H A, \u22c3 i, \u22c2 j, {x | \u2211 i_1, (H i j).1 i_1 * x i_1 \u2264 (H i j).2} = Set.univ \u2227 \u2200 (i : Fin p) (x : Fin n \u2192 \u211d), (\u2200 (j : Fin (m i)), x \u2208 {x | \u2211 i_1, (H i j).1 i_1 * x i_1 \u2264 (H i j).2}) \u2192 f x = \u2211 j, (A i).1 0 j * x j + (A i).2 0} = {f | \u2203 k' \u2264 Nat.clog 3 (n - 1) + 1, Agent091.NetFunc n k' f}",
+  "Agent092": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m g, \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = ((g i).1.mulVec y + (g i).2) 0} = {f | \u2203 c, f = c.eval}",
+  "Agent093": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m S L, \u22c3 i, S i = Set.univ \u2227 (\u2200 (i : Fin m), \u2203 m H, S i = {x | \u2200 (i : Fin m), \u2211 j, (H i).1 0 j * x j + (H i).2 0 \u2264 0}) \u2227 \u2200 (i : Fin m), \u2200 x \u2208 S i, f x = \u2211 j, (L i).1 0 j * x j + (L i).2 0} = {f | \u2203 ws, ws.length \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1 \u2227 \u2203 L, f = fun x \u21a6 L.apply x 0}",
+  "Agent094": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m g, (\u2200 (i : Fin m), \u2203 a c, g i = fun x \u21a6 c + \u2211 i, a i * x i) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2203 U \u2208 nhds x, Set.EqOn f (g i) U} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent094.ComputedWithHiddenLayers n k' f}",
+  "Agent095": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m a b S, \u22c3 j, S j = Set.univ \u2227 (\u2200 (j : Fin m), IsClosed (S j)) \u2227 (\u2200 (j : Fin m), Convex \u211d (S j)) \u2227 \u2200 (j : Fin m), \u2200 x \u2208 S j, f x = \u2211 i, a j i * x i + b j} = {f | \u2203 k' \u2264 \u2308Real.logb 3 \u2191(n - 1)\u2309\u208a + 1, \u2203 g, Agent095.HiddenLayers k' g \u2227 \u2200 (x : Fin n \u2192 \u211d), f x = g x 0}",
+  "Agent096": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m g, \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = ((g i).1.mulVec y + (g i).2) 0} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, \u2203 N, \u2200 (x : Fin n \u2192 \u211d), f x = N.eval x 0}",
+  "Agent097": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m A b, \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = \u2211 j, A i j * y j + b i} = {f | \u2203 j \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent097.ComputesWithHiddenLayers n j f}",
+  "Agent098": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m S g, (\u2200 (i : Fin m), \u2203 m A b, S i = {x | \u2200 (i : Fin m), \u2211 j, A i j * x j \u2264 b i}) \u2227 Set.univ = \u22c3 i, S i \u2227 \u2200 (i : Fin m), \u2200 x \u2208 S i, f x = \u2211 i_1, (g i).1 i_1 * x i_1 + (g i).2} = {f | \u2203 j \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, Agent098.ReLURepExact j n f}",
+  "Agent099": "\u2200 (n : \u2115), 3 \u2264 n \u2192 {f | Continuous f \u2227 \u2203 m g, (\u2200 (i : Fin m), \u2203 a b, \u2200 (x : Fin n \u2192 \u211d), g i x = \u2211 i, a i * x i + b) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, \u2200\u1da0 (y : Fin n \u2192 \u211d) in nhds x, f y = g i y} = {f | \u2203 k' \u2264 \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a + 1, \u2203 net, \u2200 (x : Fin n \u2192 \u211d), net.eval x = f x}",
+  "Agent100": "\u2200 n \u2265 3, {f | Continuous f \u2227 \u2203 m g, (\u2200 (i : Fin m), \u2203 T, \u2200 (x : Fin n \u2192 \u211d), g i x = (T.1.mulVec x + T.2) 0) \u2227 \u2200 (x : Fin n \u2192 \u211d), \u2203 i, f =\u1da0[nhds x] g i} = {f | \u2203 m T g, Agent100.IsReLURepresentable m \u2308Real.logb 3 (\u2191n - 1)\u2309\u208a g \u2227 \u2200 (x : Fin n \u2192 \u211d), f x = g fun i \u21a6 max 0 ((T.1.mulVec x + T.2) i)}"
+ }
+}
