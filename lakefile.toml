@@ -1,6 +1,7 @@
 name = "quicktest"
 version = "0.1.0"
 keywords = ["math"]
+defaultTargets = ["QuickTest"]
 
 # These mirror the project the experiments were originally compiled against.
 # They affect elaboration, so changing them can change results — in particular
@@ -15,3 +16,7 @@ maxSynthPendingDepth = 3
 name = "mathlib"
 scope = "leanprover-community"
 rev = "v4.27.0"
+
+[[lean_lib]]
+name = "QuickTest"
+globs = ["QuickTest.+"]

@@ -11,7 +11,7 @@ scratch. No shared definitions, and no agent saw another agent's file.
 
 # Comparison
 
-Every formalization is compared against an agent written [`star/Reference.lean`](star/Reference.lean), not against each other.
+Every formalization is compared against an agent written [`QuickTest/Reference.lean`](QuickTest/Reference.lean), not against each other.
 
 The reference reads Theorem 2 as
 
@@ -66,3 +66,7 @@ Proved to state a different theorem.
 Proofs don't compile.
 
 `020`, `027`, `084`
+
+# Note
+
+One edit was made to the corpus. 30 formalizations wrote `def depthBound` where `noncomputable def` is required.

@@ -9,9 +9,9 @@ scaffold can be type-checked before any proof work is commissioned.
 import json, os, re, sys
 
 ROOT = "/Users/panda/Desktop/Lean/quick-test"
-SRC = f"{ROOT}/formalizations"
+SRC = f"{ROOT}/QuickTest/Formalizations"
 STAR = f"{ROOT}/star"
-CMP = f"{STAR}/comparisons"
+CMP = f"{ROOT}/QuickTest/Comparisons"
 OUT = f"{STAR}/StarAll.lean"
 MAP = f"{STAR}/starmap.json"
 
@@ -62,7 +62,7 @@ spans = []
 
 lines.append("-- ===== reference =====")
 start = len(lines) + 1
-lines.extend(strip_imports(open(f"{STAR}/Reference.lean").read()).splitlines())
+lines.extend(strip_imports(open(f"{ROOT}/QuickTest/Reference.lean").read()).splitlines())
 spans.append({"kind": "reference", "id": "ref", "ns": "Ref",
               "start": start, "end": len(lines)})
 lines.append("")

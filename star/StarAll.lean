@@ -9382,6 +9382,7 @@ theorem theorem2 (n : ℕ) (hn : n ≥ 3) :
 end Agent100
 
 -- ===== comparison 001 vs Ref =====
+
 /-!
 # Star comparison: `Agent001` vs `Ref`
 
@@ -9500,6 +9501,7 @@ end Star_001
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_001)
 
 -- ===== comparison 002 vs Ref =====
+
 /-!
 # Star comparison: `Agent002` vs `Ref`
 
@@ -9635,6 +9637,7 @@ end Star_002
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_002)
 
 -- ===== comparison 003 vs Ref =====
+
 namespace Star_003
 
 /-!
@@ -9781,6 +9784,7 @@ end Star_003
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_003)
 
 -- ===== comparison 004 vs Ref =====
+
 /-!
 # Star comparison: `Agent004` vs `Ref`
 
@@ -9932,6 +9936,7 @@ end Star_004
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_004)
 
 -- ===== comparison 005 vs Ref =====
+
 namespace Star_005
 
 /-!
@@ -10080,6 +10085,7 @@ end Star_005
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_005)
 
 -- ===== comparison 006 vs Ref =====
+
 namespace Star_006
 
 /-!
@@ -10237,6 +10243,7 @@ end Star_006
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_006)
 
 -- ===== comparison 007 vs Ref =====
+
 /-!
 # Star comparison: `Agent007` vs `Ref`
 
@@ -10382,6 +10389,7 @@ end Star_007
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_007)
 
 -- ===== comparison 008 vs Ref =====
+
 /-!
 # Star comparison for Agent 008
 
@@ -10501,6 +10509,7 @@ end Star_008
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_008)
 
 -- ===== comparison 009 vs Ref =====
+
 namespace Star_009
 
 /-!
@@ -10660,6 +10669,7 @@ end Star_009
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_009)
 
 -- ===== comparison 010 vs Ref =====
+
 namespace Star_010
 
 /-!
@@ -10798,6 +10808,7 @@ end Star_010
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_010)
 
 -- ===== comparison 011 vs Ref =====
+
 namespace Star_011
 
 /-! ### The refutation of `CPWL`
@@ -10971,6 +10982,7 @@ end Star_011
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_011)
 
 -- ===== comparison 012 vs Ref =====
+
 namespace Star_012
 
 /-!
@@ -11122,6 +11134,7 @@ end Star_012
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_012)
 
 -- ===== comparison 013 vs Ref =====
+
 namespace Star_013
 
 /-! `depthBound` and `ReLUn` agree (the latter up to `funext`).  `CPWL` does **not**:
@@ -11275,6 +11288,7 @@ end Star_013
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_013)
 
 -- ===== comparison 014 vs Ref =====
+
 namespace Star_014
 
 /-!
@@ -11380,6 +11394,7 @@ end Star_014
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_014)
 
 -- ===== comparison 015 vs Ref =====
+
 namespace Star_015
 
 /-!
@@ -11546,6 +11561,7 @@ end Star_015
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_015)
 
 -- ===== comparison 016 vs Ref =====
+
 namespace Star_016
 
 /-!
@@ -11680,6 +11696,7 @@ end Star_016
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_016)
 
 -- ===== comparison 017 vs Ref =====
+
 namespace Star_017
 
 /-!
@@ -11825,6 +11842,7 @@ end Star_017
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_017)
 
 -- ===== comparison 018 vs Ref =====
+
 namespace Star_018
 
 /-!
@@ -11986,6 +12004,7 @@ end Star_018
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_018)
 
 -- ===== comparison 019 vs Ref =====
+
 namespace Star_019
 
 /-!
@@ -12127,6 +12146,7 @@ end Star_019
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_019)
 
 -- ===== comparison 021 vs Ref =====
+
 /-!
 # Star comparison: `Agent021` vs `Ref`
 
@@ -12277,6 +12297,7 @@ end Star_021
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_021)
 
 -- ===== comparison 022 vs Ref =====
+
 namespace Star_022
 
 /-! ## Bridging lemma for the matrix/vector encodings of an affine functional -/
@@ -12435,6 +12456,7 @@ end Star_022
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_022)
 
 -- ===== comparison 023 vs Ref =====
+
 namespace Star_023
 
 /-!
@@ -12584,6 +12606,7 @@ end Star_023
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_023)
 
 -- ===== comparison 024 vs Ref =====
+
 namespace Star_024
 
 /-!
@@ -12736,6 +12759,7 @@ end Star_024
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_024)
 
 -- ===== comparison 025 vs Ref =====
+
 namespace Star_025
 
 /-!
@@ -12907,6 +12931,7 @@ end Star_025
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_025)
 
 -- ===== comparison 026 vs Ref =====
+
 namespace Star_026
 
 /-!
@@ -13015,6 +13040,7 @@ end Star_026
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_026)
 
 -- ===== comparison 028 vs Ref =====
+
 namespace Star_028
 
 /-!
@@ -13168,6 +13194,7 @@ end Star_028
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_028)
 
 -- ===== comparison 029 vs Ref =====
+
 namespace Star_029
 
 /-!
@@ -13259,6 +13286,7 @@ end Star_029
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_029)
 
 -- ===== comparison 030 vs Ref =====
+
 /-!
 # Star comparison: `Agent030` vs `Ref`
 
@@ -13369,6 +13397,7 @@ end Star_030
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_030)
 
 -- ===== comparison 031 vs Ref =====
+
 namespace Star_031
 
 /-!
@@ -13506,6 +13535,7 @@ end Star_031
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_031)
 
 -- ===== comparison 032 vs Ref =====
+
 namespace Star_032
 
 /-!
@@ -13631,6 +13661,7 @@ end Star_032
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_032)
 
 -- ===== comparison 033 vs Ref =====
+
 namespace Star_033
 
 /-! ### Networks
@@ -13783,6 +13814,7 @@ end Star_033
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_033)
 
 -- ===== comparison 034 vs Ref =====
+
 namespace Star_034
 
 /-!
@@ -13914,6 +13946,7 @@ end Star_034
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_034)
 
 -- ===== comparison 035 vs Ref =====
+
 namespace Star_035
 
 /-!
@@ -14080,6 +14113,7 @@ end Star_035
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_035)
 
 -- ===== comparison 036 vs Ref =====
+
 namespace Star_036
 
 /-!
@@ -14245,6 +14279,7 @@ end Star_036
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_036)
 
 -- ===== comparison 037 vs Ref =====
+
 namespace Star_037
 
 /-!
@@ -14379,6 +14414,7 @@ end Star_037
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_037)
 
 -- ===== comparison 038 vs Ref =====
+
 namespace Star_038
 
 /-!
@@ -14527,6 +14563,7 @@ end Star_038
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_038)
 
 -- ===== comparison 039 vs Ref =====
+
 namespace Star_039
 
 /-! ## Networks
@@ -14691,6 +14728,7 @@ end Star_039
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_039)
 
 -- ===== comparison 040 vs Ref =====
+
 namespace Star_040
 
 /-! ### Depth bound
@@ -14831,6 +14869,7 @@ end Star_040
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_040)
 
 -- ===== comparison 041 vs Ref =====
+
 namespace Star_041
 
 /-!
@@ -14927,6 +14966,7 @@ end Star_041
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_041)
 
 -- ===== comparison 042 vs Ref =====
+
 /-!
 # Star comparison: `Agent042` vs `Ref`
 
@@ -15013,6 +15053,7 @@ end Star_042
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_042)
 
 -- ===== comparison 043 vs Ref =====
+
 namespace Star_043
 
 /-!
@@ -15166,6 +15207,7 @@ end Star_043
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_043)
 
 -- ===== comparison 044 vs Ref =====
+
 namespace Star_044
 
 /-!
@@ -15316,6 +15358,7 @@ end Star_044
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_044)
 
 -- ===== comparison 045 vs Ref =====
+
 namespace Star_045
 
 /-!
@@ -15477,6 +15520,7 @@ end Star_045
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_045)
 
 -- ===== comparison 046 vs Ref =====
+
 namespace Star_046
 
 /-!
@@ -15602,6 +15646,7 @@ end Star_046
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_046)
 
 -- ===== comparison 047 vs Ref =====
+
 namespace Star_047
 
 /-! # Agent 047 vs. the reference
@@ -15769,6 +15814,7 @@ end Star_047
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_047)
 
 -- ===== comparison 048 vs Ref =====
+
 namespace Star_048
 
 /-!
@@ -15914,6 +15960,7 @@ end Star_048
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_048)
 
 -- ===== comparison 049 vs Ref =====
+
 /-!
 # Star comparison: `Agent049` vs `Ref`
 
@@ -16034,6 +16081,7 @@ end Star_049
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_049)
 
 -- ===== comparison 050 vs Ref =====
+
 /-!
 # Star comparison: `Agent050` vs `Ref`
 
@@ -16180,6 +16228,7 @@ end Star_050
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_050)
 
 -- ===== comparison 051 vs Ref =====
+
 namespace Star_051
 
 /-!
@@ -16336,6 +16385,7 @@ end Star_051
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_051)
 
 -- ===== comparison 052 vs Ref =====
+
 /-!
 # Star comparison: `Agent052` vs `Ref`
 
@@ -16456,6 +16506,7 @@ end Star_052
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_052)
 
 -- ===== comparison 053 vs Ref =====
+
 namespace Star_053
 
 /-!
@@ -16604,6 +16655,7 @@ end Star_053
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_053)
 
 -- ===== comparison 054 vs Ref =====
+
 /-!
 # Star comparison 054 vs the reference
 
@@ -16732,6 +16784,7 @@ end Star_054
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_054)
 
 -- ===== comparison 055 vs Ref =====
+
 namespace Star_055
 
 /-!
@@ -16887,6 +16940,7 @@ end Star_055
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_055)
 
 -- ===== comparison 056 vs Ref =====
+
 namespace Star_056
 
 /-!
@@ -17040,6 +17094,7 @@ end Star_056
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_056)
 
 -- ===== comparison 057 vs Ref =====
+
 namespace Star_057
 
 /-!
@@ -17201,6 +17256,7 @@ end Star_057
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_057)
 
 -- ===== comparison 058 vs Ref =====
+
 /-!
 # Star comparison: `Agent058` vs `Ref`
 
@@ -17345,6 +17401,7 @@ end Star_058
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_058)
 
 -- ===== comparison 059 vs Ref =====
+
 /-!
 # Star comparison: `Agent059` vs `Ref`
 
@@ -17462,6 +17519,7 @@ end Star_059
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_059)
 
 -- ===== comparison 060 vs Ref =====
+
 namespace Star_060
 
 /-!
@@ -17591,6 +17649,7 @@ end Star_060
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_060)
 
 -- ===== comparison 061 vs Ref =====
+
 namespace Star_061
 
 /-!
@@ -17734,6 +17793,7 @@ end Star_061
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_061)
 
 -- ===== comparison 062 vs Ref =====
+
 /-!
 # Star comparison: `Agent062` vs `Ref`
 
@@ -17861,6 +17921,7 @@ end Star_062
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_062)
 
 -- ===== comparison 063 vs Ref =====
+
 namespace Star_063
 
 /-!
@@ -17957,6 +18018,7 @@ end Star_063
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_063)
 
 -- ===== comparison 064 vs Ref =====
+
 namespace Star_064
 
 /-!
@@ -18106,6 +18168,7 @@ end Star_064
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_064)
 
 -- ===== comparison 065 vs Ref =====
+
 namespace Star_065
 
 /-!
@@ -18285,6 +18348,7 @@ end Star_065
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_065)
 
 -- ===== comparison 066 vs Ref =====
+
 namespace Star_066
 
 /-!
@@ -18437,6 +18501,7 @@ end Star_066
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_066)
 
 -- ===== comparison 067 vs Ref =====
+
 namespace Star_067
 
 /-!
@@ -18570,6 +18635,7 @@ end Star_067
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_067)
 
 -- ===== comparison 068 vs Ref =====
+
 /-!
 # Star comparison 068 vs. the reference
 
@@ -18678,6 +18744,7 @@ end Star_068
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_068)
 
 -- ===== comparison 069 vs Ref =====
+
 namespace Star_069
 
 /-! ## `ReLUn` : the two encodings agree
@@ -18836,6 +18903,7 @@ end Star_069
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_069)
 
 -- ===== comparison 070 vs Ref =====
+
 /-!
 # Star comparison: `Agent070` vs `Ref`
 
@@ -18968,6 +19036,7 @@ end Star_070
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_070)
 
 -- ===== comparison 071 vs Ref =====
+
 namespace Star_071
 
 /-! ## Comparison of `Agent071` with `Ref`
@@ -19141,6 +19210,7 @@ end Star_071
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_071)
 
 -- ===== comparison 072 vs Ref =====
+
 /-!
 # Star comparison: `Agent072` vs `Ref`
 
@@ -19267,6 +19337,7 @@ end Star_072
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_072)
 
 -- ===== comparison 073 vs Ref =====
+
 namespace Star_073
 
 /-!
@@ -19403,6 +19474,7 @@ end Star_073
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_073)
 
 -- ===== comparison 074 vs Ref =====
+
 /-!
 # Star comparison: `Agent074` vs `Ref`
 
@@ -19530,6 +19602,7 @@ end Star_074
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_074)
 
 -- ===== comparison 075 vs Ref =====
+
 namespace Star_075
 
 /-!
@@ -19677,6 +19750,7 @@ end Star_075
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_075)
 
 -- ===== comparison 076 vs Ref =====
+
 namespace Star_076
 
 /-!
@@ -19841,6 +19915,7 @@ end Star_076
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_076)
 
 -- ===== comparison 077 vs Ref =====
+
 namespace Star_077
 
 /-!
@@ -19987,6 +20062,7 @@ end Star_077
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_077)
 
 -- ===== comparison 078 vs Ref =====
+
 namespace Star_078
 
 /-!
@@ -20121,6 +20197,7 @@ end Star_078
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_078)
 
 -- ===== comparison 079 vs Ref =====
+
 namespace Star_079
 
 /-!
@@ -20281,6 +20358,7 @@ end Star_079
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_079)
 
 -- ===== comparison 080 vs Ref =====
+
 /-!
 # Star comparison: `Agent080` vs `Ref`
 
@@ -20441,6 +20519,7 @@ end Star_080
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_080)
 
 -- ===== comparison 081 vs Ref =====
+
 /-!
 # Star comparison: `Agent081` vs `Ref`
 
@@ -20563,6 +20642,7 @@ end Star_081
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_081)
 
 -- ===== comparison 082 vs Ref =====
+
 /-!
 # Star comparison: `Agent082` vs `Ref`
 
@@ -20698,6 +20778,7 @@ end Star_082
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_082)
 
 -- ===== comparison 083 vs Ref =====
+
 /-!
 # Star comparison: `Agent083` vs `Ref`
 
@@ -20843,6 +20924,7 @@ end Star_083
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_083)
 
 -- ===== comparison 085 vs Ref =====
+
 /-!
 # Star comparison: `Agent085` vs `Ref`
 
@@ -20998,6 +21080,7 @@ end Star_085
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_085)
 
 -- ===== comparison 086 vs Ref =====
+
 namespace Star_086
 
 /-!
@@ -21100,6 +21183,7 @@ end Star_086
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_086)
 
 -- ===== comparison 087 vs Ref =====
+
 namespace Star_087
 
 /-!
@@ -21252,6 +21336,7 @@ end Star_087
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_087)
 
 -- ===== comparison 088 vs Ref =====
+
 /-!
 # Star comparison for Agent 088
 
@@ -21377,6 +21462,7 @@ end Star_088
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_088)
 
 -- ===== comparison 089 vs Ref =====
+
 namespace Star_089
 
 /-! # Comparison of `Agent089` with the reference `Ref`
@@ -21525,6 +21611,7 @@ end Star_089
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_089)
 
 -- ===== comparison 090 vs Ref =====
+
 namespace Star_090
 
 open Agent090
@@ -21658,6 +21745,7 @@ end Star_090
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_090)
 
 -- ===== comparison 091 vs Ref =====
+
 namespace Star_091
 
 /-! ## Bridges between the two encodings of affine maps
@@ -21789,6 +21877,7 @@ end Star_091
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_091)
 
 -- ===== comparison 092 vs Ref =====
+
 namespace Star_092
 
 /-!
@@ -21950,6 +22039,7 @@ end Star_092
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_092)
 
 -- ===== comparison 093 vs Ref =====
+
 namespace Star_093
 
 /-- Package a coefficient vector and a constant as one of the agent's affine functionals. -/
@@ -22094,6 +22184,7 @@ end Star_093
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_093)
 
 -- ===== comparison 094 vs Ref =====
+
 /-!
 # Star comparison 094 vs. the reference
 
@@ -22268,6 +22359,7 @@ end Star_094
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_094)
 
 -- ===== comparison 095 vs Ref =====
+
 namespace Star_095
 
 /-!
@@ -22408,6 +22500,7 @@ end Star_095
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_095)
 
 -- ===== comparison 096 vs Ref =====
+
 namespace Star_096
 
 /-!
@@ -22580,6 +22673,7 @@ end Star_096
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_096)
 
 -- ===== comparison 097 vs Ref =====
+
 namespace Star_097
 
 /-!
@@ -22737,6 +22831,7 @@ end Star_097
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_097)
 
 -- ===== comparison 098 vs Ref =====
+
 namespace Star_098
 
 /-!
@@ -22849,6 +22944,7 @@ end Star_098
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_098)
 
 -- ===== comparison 099 vs Ref =====
+
 namespace Star_099
 
 /-! ## `depthBound` and `ReLUn`
@@ -22999,6 +23095,7 @@ end Star_099
 run_cmd Lean.Elab.Command.liftTermElabM (starProbe `Star_099)
 
 -- ===== comparison 100 vs Ref =====
+
 namespace Star_100
 
 /-!

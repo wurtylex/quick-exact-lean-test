@@ -39,9 +39,9 @@ def strip(p):
                      if not l.strip().startswith("import "))
 
 
-out = [PRELUDE, strip(os.path.join(H, "Reference.lean"))]
+out = [PRELUDE, strip(os.path.join(H, "..", "QuickTest", "Reference.lean"))]
 for i in IDS:
-    out.append(strip(os.path.join(H, "..", "formalizations", f"Thm2_{i}.lean")))
+    out.append(strip(os.path.join(H, "..", "QuickTest", "Formalizations", f"Thm2_{i}.lean")))
 out.append("set_option maxHeartbeats 0 in")
 out.append("run_cmd Lean.Elab.Command.liftTermElabM (dfCheck [%s])"
            % ", ".join(f'"{i}"' for i in IDS))
