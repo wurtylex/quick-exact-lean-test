@@ -590,7 +590,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
         ∀ x : Fin n → ℝ, ∃ g ∈ F, ∃ U : Set (Fin n → ℝ), IsOpen U ∧ x ∈ U ∧ Set.EqOn f g U}
 
 /-- The depth bound `⌈log_3 (n - 1)⌉ + 1` from Theorem 2, for `n ≥ 3` (so `n - 1 ≥ 2`). -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   ⌈Real.logb 3 ((n : ℝ) - 1)⌉₊ + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL_n = ReLU_{n, ⌈log_3(n-1)⌉ + 1}`. -/
@@ -1058,7 +1058,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
 
 /-- The depth bound `⌈log₃(n - 1)⌉ + 1` from the paper, with `log₃` the real logarithm to
 base `3` and `⌈·⌉` the ceiling (as `Nat.ceil` of a real number). -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   ⌈Real.logb 3 ((n : ℝ) - 1)⌉₊ + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL_n = ReLU_{n, ⌈log₃(n-1)⌉ + 1}`. -/
@@ -1156,7 +1156,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
    ================================================================ -/
 
 /-- The hidden-layer bound `⌈log_3 (n - 1)⌉ + 1` from Theorem 2. -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   Nat.ceil (Real.logb 3 ((n : ℝ) - 1)) + 1
 
 /- ================================================================
@@ -1529,7 +1529,7 @@ def CPWL (n : ℕ) : Set (Vec n → ℝ) := { f | IsCPWL n f }
 
 /-- The depth bound `⌈log_3(n - 1)⌉ + 1` from the theorem statement, using the
 real logarithm `Real.logb 3` and `Nat.ceil` for the ceiling. -/
-def depthBound (n : ℕ) : ℕ := ⌈Real.logb 3 ((n : ℝ) - 1)⌉₊ + 1
+noncomputable def depthBound (n : ℕ) : ℕ := ⌈Real.logb 3 ((n : ℝ) - 1)⌉₊ + 1
 
 /- ================= Theorem 2 ================= -/
 
@@ -2274,7 +2274,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
 
 /-- The depth bound `⌈log_3(n - 1)⌉ + 1` from the theorem, with the ceiling of the
 real logarithm base `3` taken via `Nat.ceil`. -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   Nat.ceil (Real.logb 3 ((n : ℝ) - 1)) + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, the continuous piecewise linear functions on `ℝ^n`
@@ -2473,7 +2473,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
         ∀ i, ∀ x ∈ S i, f x = (∑ j, A i j * x j) + c i }
 
 /-- The depth bound `⌈log_3(n-1)⌉ + 1` from the theorem statement. -/
-def depthBound (n : ℕ) : ℕ := ⌈Real.logb 3 ((n : ℝ) - 1)⌉₊ + 1
+noncomputable def depthBound (n : ℕ) : ℕ := ⌈Real.logb 3 ((n : ℝ) - 1)⌉₊ + 1
 
 end
 
@@ -2694,7 +2694,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
 
 /-- The depth bound `⌈log_3(n - 1)⌉ + 1` from Theorem 2, encoded via the real logarithm
 and `Nat.ceil`. -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   ⌈Real.logb 3 ((n : ℝ) - 1)⌉₊ + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL n = ReLU_{n, ⌈log_3(n-1)⌉ + 1}`. -/
@@ -2791,7 +2791,7 @@ def ReLUn (n k : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
   { f | ∃ k' ≤ k, ComputesWithHiddenLayers n k' f }
 
 /-- The depth bound `⌈log_3 (n - 1)⌉ + 1` from Theorem 2. -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   Nat.ceil (Real.logb 3 ((n : ℝ) - 1)) + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL_n = ReLU_{n, ⌈log_3(n-1)⌉ + 1}`. -/
@@ -3456,7 +3456,7 @@ def CPWL (n : ℕ) : Set (ℝn n → ℝ) :=
 
 /-- The depth bound `⌈log_3(n − 1)⌉ + 1` from Theorem 2, using the real logarithm and
 `Nat.ceil`. -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   Nat.ceil (Real.logb 3 ((n : ℝ) - 1)) + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL_n = ReLU_{n, ⌈log_3(n−1)⌉ + 1}`. -/
@@ -3724,7 +3724,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
 
 /-- The depth bound `⌈log_3 (n - 1)⌉ + 1` from Theorem 2, for `n ≥ 3` (so `n - 1 ≥ 2`
 and the real logarithm base `3` is well-defined and positive on it). -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   ⌈Real.logb 3 ((n : ℝ) - 1)⌉₊ + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL_n = ReLU_{n, ⌈log_3(n-1)⌉ + 1}`. -/
@@ -3809,7 +3809,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
           (∀ j, IsAffineScalar (g j)) ∧ ∀ x, ∃ j, f x = g j x }
 
 /-- The depth bound `⌈log_3(n - 1)⌉ + 1` from Theorem 2, for `n ≥ 3` (so `n - 1 ≥ 2`). -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   Nat.ceil (Real.logb 3 ((n - 1 : ℕ) : ℝ)) + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL_n = ReLU_{n, ⌈log_3(n-1)⌉ + 1}`. -/
@@ -3912,7 +3912,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
 noncomputable section
 
 /-- The depth bound `⌈log_3(n - 1)⌉ + 1` from Theorem 2, as the number of hidden layers. -/
-def depthBound (n : ℕ) : ℕ := ⌈Real.logb 3 ((n : ℝ) - 1)⌉₊ + 1
+noncomputable def depthBound (n : ℕ) : ℕ := ⌈Real.logb 3 ((n : ℝ) - 1)⌉₊ + 1
 
 end
 
@@ -4013,7 +4013,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
           dist y x < r → f y = (∑ j, A i j * y j) + c i }
 
 /-- The depth bound `⌈log_3(n-1)⌉ + 1` from Theorem 2, for `n ≥ 3`. -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   Nat.ceil (Real.logb 3 ((n : ℝ) - 1)) + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL_n = ReLU_{n, ⌈log_3(n-1)⌉ + 1}`. -/
@@ -4284,7 +4284,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
 
 /-- The depth bound `⌈log_3(n - 1)⌉ + 1` from Theorem 2, for `n ≥ 3` (so `n - 1 ≥ 2`,
 using real subtraction of the cast of `n`). -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   ⌈Real.logb 3 ((n : ℝ) - 1)⌉₊ + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL_n = ReLU_{n, ⌈log_3(n−1)⌉ + 1}`. -/
@@ -4365,7 +4365,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
 /-- The number of hidden layers `⌈log_3 (n - 1)⌉ + 1` from the statement of Theorem 2,
 using the real logarithm `Real.logb 3` and `Nat.ceil`. For `n ≥ 3` we have `n - 1 ≥ 2`,
 so the argument of the logarithm is positive. -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   ⌈Real.logb 3 ((n : ℝ) - 1)⌉₊ + 1
 
 /-! ### Theorem 2 -/
@@ -5097,7 +5097,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
 
 /-- The depth bound `⌈log_3(n - 1)⌉ + 1` from Theorem 2, for `n ≥ 3` (so that
 `n - 1 ≥ 2`, as a natural number before casting to `ℝ`). -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   ⌈Real.logb 3 ((n - 1 : ℕ) : ℝ)⌉₊ + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL_n = ReLU_{n, ⌈log_3(n-1)⌉ + 1}`. -/
@@ -5811,7 +5811,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
           (∀ i x, x ∈ S i → f x = g i x) }
 
 /-- The depth bound `⌈log_3(n-1)⌉ + 1` from Theorem 2, for `n ≥ 3`. -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   Nat.ceil (Real.logb 3 ((n : ℝ) - 1)) + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL_n = ReLU_{n, ⌈log_3(n-1)⌉ + 1}`. -/
@@ -6464,7 +6464,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
       ∀ x, ∃ i, ∀ᶠ y in nhds x, f y = g i y}
 
 /-- The depth bound `⌈log_3(n-1)⌉ + 1` appearing in Theorem 2. -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   ⌈Real.logb 3 ((n : ℝ) - 1)⌉₊ + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL_n = ReLU_{n, ⌈log_3(n-1)⌉+1}`. -/
@@ -6647,7 +6647,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
 
 /-- The depth bound `⌈log_3 (n - 1)⌉ + 1` from Theorem 2, for `n ≥ 3` (so that
 `(n : ℝ) - 1 ≥ 2`). -/
-def depthBound (n : ℕ) : ℕ := ⌈Real.logb 3 ((n : ℝ) - 1)⌉₊ + 1
+noncomputable def depthBound (n : ℕ) : ℕ := ⌈Real.logb 3 ((n : ℝ) - 1)⌉₊ + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL_n = ReLU_{n, ⌈log_3(n-1)⌉ + 1}`. -/
 theorem theorem2 (n : ℕ) (hn : 3 ≤ n) :
@@ -7335,7 +7335,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
           ∀ x : Fin n → ℝ, ∃ i, ∀ᶠ y in nhds x, f y = g i y }
 
 /-- The depth bound `⌈log_3(n - 1)⌉ + 1` from Theorem 2. -/
-def depthBound (n : ℕ) : ℕ := ⌈Real.logb 3 ((n : ℝ) - 1)⌉₊ + 1
+noncomputable def depthBound (n : ℕ) : ℕ := ⌈Real.logb 3 ((n : ℝ) - 1)⌉₊ + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL_n = ReLU_{n, ⌈log_3(n-1)⌉ + 1}`. -/
 theorem theorem2 (n : ℕ) (hn : 3 ≤ n) :
@@ -7619,7 +7619,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
       ∀ i, ∀ x ∈ P i, f x = (g i).eval x 0}
 
 /-- The depth bound `⌈log_3 (n - 1)⌉ + 1` from Theorem 2, for `n ≥ 3` (so `n - 1 ≥ 2`). -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   ⌈Real.logb 3 ((n : ℝ) - 1)⌉₊ + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL_n = ReLU_{n, ⌈log_3(n-1)⌉+1}`. -/
@@ -7818,7 +7818,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
 
 /-- The depth bound `⌈log_3(n-1)⌉ + 1` from Theorem 2, for `n ≥ 3` (so `n - 1 ≥ 2` as a real
 number). -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   ⌈Real.logb 3 ((n : ℝ) - 1)⌉₊ + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL n = ReLUn n (⌈log_3(n-1)⌉ + 1)`. -/
@@ -8100,7 +8100,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
 
 /-- The depth bound `⌈log_3 (n - 1)⌉ + 1` from the paper, for `n ≥ 3` (so that
 `n - 1 ≥ 2 > 0` and the real logarithm behaves as expected). -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   ⌈Real.logb 3 ((n : ℝ) - 1)⌉₊ + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL_n = ReLU_{n, ⌈log_3(n-1)⌉ + 1}`. -/
@@ -8207,7 +8207,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
 
 /-- The depth bound `⌈log_3 (n - 1)⌉ + 1` from Theorem 2, for `n ≥ 3`
 (so that `(n : ℝ) - 1 ≥ 2`). -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   Nat.ceil (Real.logb 3 ((n : ℝ) - 1)) + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL_n = ReLU_{n, ⌈log_3(n-1)⌉ + 1}`. -/
@@ -8291,7 +8291,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
 
 /-- The depth bound `⌈log_3(n-1)⌉ + 1` from Theorem 2, encoded using the real
 logarithm `Real.logb 3` and `Nat.ceil`. -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   ⌈Real.logb 3 ((n : ℝ) - 1)⌉₊ + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL_n = ReLU_{n, ⌈log_3(n-1)⌉ + 1}`. -/
@@ -8523,7 +8523,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
   {f | IsCPWL n f}
 
 /-- The depth bound `⌈log_3(n - 1)⌉ + 1`, encoded via `Nat.clog`. -/
-def depthBound (n : ℕ) : ℕ := Nat.clog 3 (n - 1) + 1
+noncomputable def depthBound (n : ℕ) : ℕ := Nat.clog 3 (n - 1) + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL_n = ReLU_{n, ⌈log_3(n-1)⌉ + 1}`. -/
 theorem theorem2 (n : ℕ) (hn : 3 ≤ n) :
@@ -8613,7 +8613,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
 
 /-- The depth bound `⌈log_3 (n - 1)⌉ + 1` from the theorem, for `n ≥ 3` (so `n - 1 ≥ 2`
 as a real number). -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   Nat.ceil (Real.logb 3 ((n : ℝ) - 1)) + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL_n = ReLU_{n, ⌈log_3(n-1)⌉ + 1}`. -/
@@ -8790,7 +8790,7 @@ def CPWL (n : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
 
 /-- The depth bound `⌈log_3(n-1)⌉ + 1` from Theorem 2, as a natural number, computed
 via the real logarithm `Real.logb 3` and `Nat.ceil`. -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   Nat.ceil (Real.logb 3 ((n : ℝ) - 1)) + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL_n = ReLU_{n, ⌈log_3(n-1)⌉+1}`, i.e. the CPWL
@@ -9166,7 +9166,7 @@ def ReLUn (n k : ℕ) : Set ((Fin n → ℝ) → ℝ) :=
 
 /-- The depth bound `⌈log_3(n - 1)⌉ + 1` from Theorem 2, with the ceiling of the real
 logarithm base 3 taken via `Nat.ceil` and `Real.logb`. -/
-def depthBound (n : ℕ) : ℕ :=
+noncomputable def depthBound (n : ℕ) : ℕ :=
   Nat.ceil (Real.logb 3 ((n : ℝ) - 1)) + 1
 
 /-- **Theorem 2.** For `n ≥ 3`, `CPWL_n = ReLU_{n, ⌈log_3(n-1)⌉ + 1}`. -/

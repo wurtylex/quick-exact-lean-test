@@ -70,3 +70,14 @@ Proofs don't compile.
 # Note
 
 One edit was made to the corpus. 30 formalizations wrote `def depthBound` where `noncomputable def` is required.
+
+`005` `010` `011` `015` `020` `024` `026` `029` `030` `037` `040` `041` `042` `043` `046` `047` `055` `062` `069` `071` `078` `081` `083` `087` `088` `089` `091` `092` `094` `098`
+
+It uses `Real.logb`, so Lean cannot generate code for it; those modules produced
+no `.olean`, which blocked the comparison files importing them. The keyword was
+added to each, one line per file, nothing else touched.
+
+This cannot affect any result. `noncomputable` governs code generation only —
+never the elaborated term, a statement, or a proof — and every verdict here was
+produced with `lake env lean`, which already reported the missing keyword as an
+error and carried on elaborating regardless.
