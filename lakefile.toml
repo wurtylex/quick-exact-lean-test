@@ -1,0 +1,17 @@
+name = "quicktest"
+version = "0.1.0"
+keywords = ["math"]
+
+# These mirror the project the experiments were originally compiled against.
+# They affect elaboration, so changing them can change results — in particular
+# `relaxedAutoImplicit = false`, which the 100 formalizations were written under.
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+maxSynthPendingDepth = 3
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.27.0"

@@ -1,0 +1,15 @@
+# Lake build artifacts and the vendored toolchain/dependency tree.
+# `.lake/packages` alone is several GB — rebuild it with `lake exe cache get`,
+# which restores exactly the revisions pinned in lake-manifest.json.
+/.lake/
+**/build/
+*.olean
+*.ilean
+*.trace
+*.hash
+
+# Scratch
+Smoke.lean
+*.tmp
+
+.DS_Store
