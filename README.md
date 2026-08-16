@@ -29,12 +29,14 @@ def ReLUn (n k : ℕ) : Set ((Fin n → ℝ) → ℝ) := {f | ∃ j ≤ k, Compu
 noncomputable def depthBound (n : ℕ) : ℕ := ⌈Real.logb 3 ((n : ℝ) - 1)⌉₊ + 1
 ```
 
-## Agree: 28 of 97
+## Agree: 22 of 97
 
-Proved equal to the reference, hence to each other.
+`008`, `021`, `026`, `030`, `032`, `034`, `037`, `046`, `049`, `050`, `057`, `059`, `062`, `063`
+`072`, `074`, `081`, `086`, `088`, `090`, `091`, `098`
 
-`001`, `008`, `014`, `021`, `026`, `029`, `030`, `032`, `034`, `037`, `042`, `046`, `049`, `050`
-`052`, `057`, `059`, `062`, `063`, `072`, `074`, `081`, `086`, `088`, `090`, `091`, `093`, `098`
+### Partial: 6 more match `CPWL` and `depthBound` only
+
+`001`, `014`, `029`, `042`, `052`, `093`
 
 ### Exact matches without a proof
 
@@ -63,7 +65,7 @@ Proved to state a different theorem.
 
 ## Excluded: 3 of 100
 
-Proofs don't compile.
+Statements don't compile.
 
 `020`, `027`, `084`
 
@@ -72,12 +74,3 @@ Proofs don't compile.
 One edit was made to the corpus. 30 formalizations wrote `def depthBound` where `noncomputable def` is required.
 
 `005` `010` `011` `015` `020` `024` `026` `029` `030` `037` `040` `041` `042` `043` `046` `047` `055` `062` `069` `071` `078` `081` `083` `087` `088` `089` `091` `092` `094` `098`
-
-It uses `Real.logb`, so Lean cannot generate code for it; those modules produced
-no `.olean`, which blocked the comparison files importing them. The keyword was
-added to each, one line per file, nothing else touched.
-
-This cannot affect any result. `noncomputable` governs code generation only —
-never the elaborated term, a statement, or a proof — and every verdict here was
-produced with `lake env lean`, which already reported the missing keyword as an
-error and carried on elaborating regardless.
