@@ -63,4 +63,6 @@ Proved to state a different theorem.
 
 ## Excluded: 3 of 100
 
-`020`, `027`, `084` do not elaborate, so no comparison is meaningful.
+Proofs don't compile.
+
+`020`, `027`, `084`
