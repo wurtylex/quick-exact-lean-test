@@ -1,0 +1,818 @@
+{
+ "verdict": {
+  "001": {
+   "cpwl": "PROVED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  },
+  "002": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  },
+  "003": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "004": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  },
+  "005": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "006": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "007": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "008": {
+   "cpwl": "PROVED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "PROVED",
+   "ownfalse": "MISSING"
+  },
+  "009": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "010": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "011": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "012": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "013": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "014": {
+   "cpwl": "PROVED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  },
+  "015": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "016": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  },
+  "017": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "018": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "019": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "021": {
+   "cpwl": "PROVED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "PROVED",
+   "ownfalse": "MISSING"
+  },
+  "022": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "023": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "024": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "025": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "026": {
+   "cpwl": "PROVED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "PROVED",
+   "ownfalse": "MISSING"
+  },
+  "028": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "029": {
+   "cpwl": "PROVED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  },
+  "030": {
+   "cpwl": "PROVED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "PROVED",
+   "ownfalse": "MISSING"
+  },
+  "031": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  },
+  "032": {
+   "cpwl": "PROVED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "PROVED",
+   "ownfalse": "MISSING"
+  },
+  "033": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "034": {
+   "cpwl": "PROVED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "PROVED",
+   "ownfalse": "MISSING"
+  },
+  "035": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "036": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  },
+  "037": {
+   "cpwl": "PROVED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "PROVED",
+   "ownfalse": "MISSING"
+  },
+  "038": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "039": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "040": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "041": {
+   "cpwl": "SORRY",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  },
+  "042": {
+   "cpwl": "PROVED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  },
+  "043": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "044": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "045": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  },
+  "046": {
+   "cpwl": "PROVED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "PROVED",
+   "ownfalse": "MISSING"
+  },
+  "047": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "048": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "049": {
+   "cpwl": "PROVED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "PROVED",
+   "ownfalse": "MISSING"
+  },
+  "050": {
+   "cpwl": "PROVED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "PROVED",
+   "ownfalse": "MISSING"
+  },
+  "051": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "052": {
+   "cpwl": "PROVED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  },
+  "053": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "054": {
+   "cpwl": "SORRY",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  },
+  "055": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "056": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "057": {
+   "cpwl": "PROVED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "PROVED",
+   "ownfalse": "MISSING"
+  },
+  "058": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  },
+  "059": {
+   "cpwl": "PROVED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "PROVED",
+   "ownfalse": "MISSING"
+  },
+  "060": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  },
+  "061": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "062": {
+   "cpwl": "PROVED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "PROVED",
+   "ownfalse": "MISSING"
+  },
+  "063": {
+   "cpwl": "PROVED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "PROVED",
+   "ownfalse": "MISSING"
+  },
+  "064": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "065": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "066": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "067": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "068": {
+   "cpwl": "SORRY",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  },
+  "069": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  },
+  "070": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  },
+  "071": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "SORRY"
+  },
+  "072": {
+   "cpwl": "PROVED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "PROVED",
+   "ownfalse": "MISSING"
+  },
+  "073": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "074": {
+   "cpwl": "PROVED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "PROVED",
+   "ownfalse": "MISSING"
+  },
+  "075": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "SORRY"
+  },
+  "076": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "077": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "078": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "079": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "080": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "081": {
+   "cpwl": "PROVED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "PROVED",
+   "ownfalse": "MISSING"
+  },
+  "082": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  },
+  "083": {
+   "cpwl": "SORRY",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  },
+  "085": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "086": {
+   "cpwl": "PROVED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "PROVED",
+   "ownfalse": "MISSING"
+  },
+  "087": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "088": {
+   "cpwl": "PROVED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "PROVED",
+   "ownfalse": "MISSING"
+  },
+  "089": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "090": {
+   "cpwl": "PROVED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "PROVED",
+   "ownfalse": "MISSING"
+  },
+  "091": {
+   "cpwl": "PROVED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "PROVED",
+   "ownfalse": "MISSING"
+  },
+  "092": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "093": {
+   "cpwl": "PROVED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  },
+  "094": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "095": {
+   "cpwl": "SORRY",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  },
+  "096": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "097": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY_NE",
+   "ownfalse": "PROVED"
+  },
+  "098": {
+   "cpwl": "PROVED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "PROVED",
+   "ownfalse": "MISSING"
+  },
+  "099": {
+   "cpwl": "REFUTED",
+   "relun": "PROVED",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "PROVED"
+  },
+  "100": {
+   "cpwl": "REFUTED",
+   "relun": "SORRY",
+   "depth": "PROVED",
+   "statement": "SORRY",
+   "ownfalse": "MISSING"
+  }
+ },
+ "errors": {
+  "071": [
+   "The argument",
+   "failed to synthesize instance of type class"
+  ],
+  "075": [
+   "Tactic `simp` failed with a nested error:"
+  ],
+  "076": [
+   "unsolved goals"
+  ],
+  "079": [
+   "unsolved goals"
+  ],
+  "093": [
+   "3 provided, but 1 expected",
+   "The argument",
+   "Unknown identifier `T.apply`",
+   "Unknown identifier `T`",
+   "Unknown identifier `T`",
+   "7 provided, but 4 expected",
+   "Invalid field `length`: The environment does not contain `Agent093.Layers.length`, so it is not possible to project the field `length` from an expression",
+   "Unknown identifier `rest.apply`",
+   "Unknown identifier `T`",
+   "Unknown identifier `T`",
+   "Unknown identifier `rest.apply`",
+   "Unknown identifier `ih`"
+  ],
+  "095": [
+   "linarith failed to find a contradiction"
+  ]
+ },
+ "same": [
+  "001",
+  "008",
+  "014",
+  "021",
+  "026",
+  "029",
+  "030",
+  "032",
+  "034",
+  "037",
+  "042",
+  "046",
+  "049",
+  "050",
+  "052",
+  "057",
+  "059",
+  "062",
+  "063",
+  "072",
+  "074",
+  "081",
+  "086",
+  "088",
+  "090",
+  "091",
+  "093",
+  "098"
+ ],
+ "different": [
+  "002",
+  "003",
+  "004",
+  "005",
+  "006",
+  "007",
+  "009",
+  "010",
+  "011",
+  "012",
+  "013",
+  "015",
+  "016",
+  "017",
+  "018",
+  "019",
+  "022",
+  "023",
+  "024",
+  "025",
+  "028",
+  "031",
+  "033",
+  "035",
+  "036",
+  "038",
+  "039",
+  "040",
+  "043",
+  "044",
+  "045",
+  "047",
+  "048",
+  "051",
+  "053",
+  "055",
+  "056",
+  "058",
+  "060",
+  "061",
+  "064",
+  "065",
+  "066",
+  "067",
+  "069",
+  "070",
+  "071",
+  "073",
+  "075",
+  "076",
+  "077",
+  "078",
+  "079",
+  "080",
+  "082",
+  "085",
+  "087",
+  "089",
+  "092",
+  "094",
+  "096",
+  "097",
+  "099",
+  "100"
+ ],
+ "undecided": [
+  "041",
+  "054",
+  "068",
+  "083",
+  "095"
+ ]
+}

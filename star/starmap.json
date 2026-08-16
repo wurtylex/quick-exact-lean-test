@@ -1,0 +1,1866 @@
+{
+ "spans": [
+  {
+   "kind": "reference",
+   "id": "ref",
+   "ns": "Ref",
+   "start": 68,
+   "end": 151
+  },
+  {
+   "kind": "agent",
+   "id": "001",
+   "ns": "Agent001",
+   "family": "polyhedral subdivision",
+   "start": 153,
+   "end": 227
+  },
+  {
+   "kind": "agent",
+   "id": "002",
+   "ns": "Agent002",
+   "family": "pointwise affine selection",
+   "start": 228,
+   "end": 319
+  },
+  {
+   "kind": "agent",
+   "id": "003",
+   "ns": "Agent003",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 320,
+   "end": 407
+  },
+  {
+   "kind": "agent",
+   "id": "004",
+   "ns": "Agent004",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 408,
+   "end": 513
+  },
+  {
+   "kind": "agent",
+   "id": "005",
+   "ns": "Agent005",
+   "family": "pointwise affine selection",
+   "start": 514,
+   "end": 602
+  },
+  {
+   "kind": "agent",
+   "id": "006",
+   "ns": "Agent006",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 603,
+   "end": 699
+  },
+  {
+   "kind": "agent",
+   "id": "007",
+   "ns": "Agent007",
+   "family": "pointwise affine selection",
+   "start": 700,
+   "end": 789
+  },
+  {
+   "kind": "agent",
+   "id": "008",
+   "ns": "Agent008",
+   "family": "polyhedral subdivision",
+   "start": 790,
+   "end": 886
+  },
+  {
+   "kind": "agent",
+   "id": "009",
+   "ns": "Agent009",
+   "family": "polyhedral + local",
+   "start": 887,
+   "end": 978
+  },
+  {
+   "kind": "agent",
+   "id": "010",
+   "ns": "Agent010",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 979,
+   "end": 1070
+  },
+  {
+   "kind": "agent",
+   "id": "011",
+   "ns": "Agent011",
+   "family": "polyhedral + local",
+   "start": 1071,
+   "end": 1170
+  },
+  {
+   "kind": "agent",
+   "id": "012",
+   "ns": "Agent012",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 1171,
+   "end": 1259
+  },
+  {
+   "kind": "agent",
+   "id": "013",
+   "ns": "Agent013",
+   "family": "pointwise affine selection",
+   "start": 1260,
+   "end": 1350
+  },
+  {
+   "kind": "agent",
+   "id": "014",
+   "ns": "Agent014",
+   "family": "polyhedral subdivision",
+   "start": 1351,
+   "end": 1454
+  },
+  {
+   "kind": "agent",
+   "id": "015",
+   "ns": "Agent015",
+   "family": "polyhedral subdivision",
+   "start": 1455,
+   "end": 1541
+  },
+  {
+   "kind": "agent",
+   "id": "016",
+   "ns": "Agent016",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 1542,
+   "end": 1631
+  },
+  {
+   "kind": "agent",
+   "id": "017",
+   "ns": "Agent017",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 1632,
+   "end": 1723
+  },
+  {
+   "kind": "agent",
+   "id": "018",
+   "ns": "Agent018",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 1724,
+   "end": 1820
+  },
+  {
+   "kind": "agent",
+   "id": "019",
+   "ns": "Agent019",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 1821,
+   "end": 1923
+  },
+  {
+   "kind": "agent",
+   "id": "021",
+   "ns": "Agent021",
+   "family": "polyhedral subdivision",
+   "start": 1924,
+   "end": 2022
+  },
+  {
+   "kind": "agent",
+   "id": "022",
+   "ns": "Agent022",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 2023,
+   "end": 2100
+  },
+  {
+   "kind": "agent",
+   "id": "023",
+   "ns": "Agent023",
+   "family": "pointwise affine selection",
+   "start": 2101,
+   "end": 2191
+  },
+  {
+   "kind": "agent",
+   "id": "024",
+   "ns": "Agent024",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 2192,
+   "end": 2288
+  },
+  {
+   "kind": "agent",
+   "id": "025",
+   "ns": "Agent025",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 2289,
+   "end": 2387
+  },
+  {
+   "kind": "agent",
+   "id": "026",
+   "ns": "Agent026",
+   "family": "polyhedral subdivision",
+   "start": 2388,
+   "end": 2484
+  },
+  {
+   "kind": "agent",
+   "id": "028",
+   "ns": "Agent028",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 2485,
+   "end": 2573
+  },
+  {
+   "kind": "agent",
+   "id": "029",
+   "ns": "Agent029",
+   "family": "polyhedral subdivision",
+   "start": 2574,
+   "end": 2707
+  },
+  {
+   "kind": "agent",
+   "id": "030",
+   "ns": "Agent030",
+   "family": "polyhedral subdivision",
+   "start": 2708,
+   "end": 2803
+  },
+  {
+   "kind": "agent",
+   "id": "031",
+   "ns": "Agent031",
+   "family": "pointwise affine selection",
+   "start": 2804,
+   "end": 2887
+  },
+  {
+   "kind": "agent",
+   "id": "032",
+   "ns": "Agent032",
+   "family": "polyhedral subdivision",
+   "start": 2888,
+   "end": 2977
+  },
+  {
+   "kind": "agent",
+   "id": "033",
+   "ns": "Agent033",
+   "family": "pointwise affine selection",
+   "start": 2978,
+   "end": 3063
+  },
+  {
+   "kind": "agent",
+   "id": "034",
+   "ns": "Agent034",
+   "family": "polyhedral subdivision",
+   "start": 3064,
+   "end": 3174
+  },
+  {
+   "kind": "agent",
+   "id": "035",
+   "ns": "Agent035",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 3175,
+   "end": 3275
+  },
+  {
+   "kind": "agent",
+   "id": "036",
+   "ns": "Agent036",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 3276,
+   "end": 3361
+  },
+  {
+   "kind": "agent",
+   "id": "037",
+   "ns": "Agent037",
+   "family": "polyhedral subdivision",
+   "start": 3362,
+   "end": 3468
+  },
+  {
+   "kind": "agent",
+   "id": "038",
+   "ns": "Agent038",
+   "family": "pointwise affine selection",
+   "start": 3469,
+   "end": 3572
+  },
+  {
+   "kind": "agent",
+   "id": "039",
+   "ns": "Agent039",
+   "family": "pointwise affine selection",
+   "start": 3573,
+   "end": 3664
+  },
+  {
+   "kind": "agent",
+   "id": "040",
+   "ns": "Agent040",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 3665,
+   "end": 3734
+  },
+  {
+   "kind": "agent",
+   "id": "041",
+   "ns": "Agent041",
+   "family": "pointwise affine selection",
+   "start": 3735,
+   "end": 3820
+  },
+  {
+   "kind": "agent",
+   "id": "042",
+   "ns": "Agent042",
+   "family": "polyhedral subdivision",
+   "start": 3821,
+   "end": 3926
+  },
+  {
+   "kind": "agent",
+   "id": "043",
+   "ns": "Agent043",
+   "family": "pointwise affine selection",
+   "start": 3927,
+   "end": 4024
+  },
+  {
+   "kind": "agent",
+   "id": "044",
+   "ns": "Agent044",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 4025,
+   "end": 4102
+  },
+  {
+   "kind": "agent",
+   "id": "045",
+   "ns": "Agent045",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 4103,
+   "end": 4193
+  },
+  {
+   "kind": "agent",
+   "id": "046",
+   "ns": "Agent046",
+   "family": "polyhedral subdivision",
+   "start": 4194,
+   "end": 4295
+  },
+  {
+   "kind": "agent",
+   "id": "047",
+   "ns": "Agent047",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 4296,
+   "end": 4380
+  },
+  {
+   "kind": "agent",
+   "id": "048",
+   "ns": "Agent048",
+   "family": "polyhedral + local",
+   "start": 4381,
+   "end": 4462
+  },
+  {
+   "kind": "agent",
+   "id": "049",
+   "ns": "Agent049",
+   "family": "polyhedral subdivision",
+   "start": 4463,
+   "end": 4551
+  },
+  {
+   "kind": "agent",
+   "id": "050",
+   "ns": "Agent050",
+   "family": "polyhedral subdivision",
+   "start": 4552,
+   "end": 4643
+  },
+  {
+   "kind": "agent",
+   "id": "051",
+   "ns": "Agent051",
+   "family": "pointwise affine selection",
+   "start": 4644,
+   "end": 4731
+  },
+  {
+   "kind": "agent",
+   "id": "052",
+   "ns": "Agent052",
+   "family": "polyhedral subdivision",
+   "start": 4732,
+   "end": 4838
+  },
+  {
+   "kind": "agent",
+   "id": "053",
+   "ns": "Agent053",
+   "family": "polyhedral subdivision",
+   "start": 4839,
+   "end": 4927
+  },
+  {
+   "kind": "agent",
+   "id": "054",
+   "ns": "Agent054",
+   "family": "polyhedral subdivision",
+   "start": 4928,
+   "end": 5028
+  },
+  {
+   "kind": "agent",
+   "id": "055",
+   "ns": "Agent055",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 5029,
+   "end": 5107
+  },
+  {
+   "kind": "agent",
+   "id": "056",
+   "ns": "Agent056",
+   "family": "polyhedral + local",
+   "start": 5108,
+   "end": 5218
+  },
+  {
+   "kind": "agent",
+   "id": "057",
+   "ns": "Agent057",
+   "family": "polyhedral subdivision",
+   "start": 5219,
+   "end": 5315
+  },
+  {
+   "kind": "agent",
+   "id": "058",
+   "ns": "Agent058",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 5316,
+   "end": 5417
+  },
+  {
+   "kind": "agent",
+   "id": "059",
+   "ns": "Agent059",
+   "family": "polyhedral subdivision",
+   "start": 5418,
+   "end": 5524
+  },
+  {
+   "kind": "agent",
+   "id": "060",
+   "ns": "Agent060",
+   "family": "pointwise affine selection",
+   "start": 5525,
+   "end": 5623
+  },
+  {
+   "kind": "agent",
+   "id": "061",
+   "ns": "Agent061",
+   "family": "polyhedral + local",
+   "start": 5624,
+   "end": 5711
+  },
+  {
+   "kind": "agent",
+   "id": "062",
+   "ns": "Agent062",
+   "family": "polyhedral subdivision",
+   "start": 5712,
+   "end": 5823
+  },
+  {
+   "kind": "agent",
+   "id": "063",
+   "ns": "Agent063",
+   "family": "polyhedral subdivision",
+   "start": 5824,
+   "end": 5903
+  },
+  {
+   "kind": "agent",
+   "id": "064",
+   "ns": "Agent064",
+   "family": "pointwise affine selection",
+   "start": 5904,
+   "end": 6011
+  },
+  {
+   "kind": "agent",
+   "id": "065",
+   "ns": "Agent065",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 6012,
+   "end": 6107
+  },
+  {
+   "kind": "agent",
+   "id": "066",
+   "ns": "Agent066",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 6108,
+   "end": 6186
+  },
+  {
+   "kind": "agent",
+   "id": "067",
+   "ns": "Agent067",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 6187,
+   "end": 6266
+  },
+  {
+   "kind": "agent",
+   "id": "068",
+   "ns": "Agent068",
+   "family": "polyhedral subdivision",
+   "start": 6267,
+   "end": 6397
+  },
+  {
+   "kind": "agent",
+   "id": "069",
+   "ns": "Agent069",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 6398,
+   "end": 6476
+  },
+  {
+   "kind": "agent",
+   "id": "070",
+   "ns": "Agent070",
+   "family": "polyhedral + local",
+   "start": 6477,
+   "end": 6572
+  },
+  {
+   "kind": "agent",
+   "id": "071",
+   "ns": "Agent071",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 6573,
+   "end": 6657
+  },
+  {
+   "kind": "agent",
+   "id": "072",
+   "ns": "Agent072",
+   "family": "polyhedral subdivision",
+   "start": 6658,
+   "end": 6760
+  },
+  {
+   "kind": "agent",
+   "id": "073",
+   "ns": "Agent073",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 6761,
+   "end": 6841
+  },
+  {
+   "kind": "agent",
+   "id": "074",
+   "ns": "Agent074",
+   "family": "polyhedral subdivision",
+   "start": 6842,
+   "end": 6941
+  },
+  {
+   "kind": "agent",
+   "id": "075",
+   "ns": "Agent075",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 6942,
+   "end": 7044
+  },
+  {
+   "kind": "agent",
+   "id": "076",
+   "ns": "Agent076",
+   "family": "polyhedral + local",
+   "start": 7045,
+   "end": 7128
+  },
+  {
+   "kind": "agent",
+   "id": "077",
+   "ns": "Agent077",
+   "family": "pointwise affine selection",
+   "start": 7129,
+   "end": 7234
+  },
+  {
+   "kind": "agent",
+   "id": "078",
+   "ns": "Agent078",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 7235,
+   "end": 7345
+  },
+  {
+   "kind": "agent",
+   "id": "079",
+   "ns": "Agent079",
+   "family": "polyhedral subdivision",
+   "start": 7346,
+   "end": 7444
+  },
+  {
+   "kind": "agent",
+   "id": "080",
+   "ns": "Agent080",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 7445,
+   "end": 7531
+  },
+  {
+   "kind": "agent",
+   "id": "081",
+   "ns": "Agent081",
+   "family": "polyhedral subdivision",
+   "start": 7532,
+   "end": 7630
+  },
+  {
+   "kind": "agent",
+   "id": "082",
+   "ns": "Agent082",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 7631,
+   "end": 7725
+  },
+  {
+   "kind": "agent",
+   "id": "083",
+   "ns": "Agent083",
+   "family": "polyhedral subdivision",
+   "start": 7726,
+   "end": 7830
+  },
+  {
+   "kind": "agent",
+   "id": "085",
+   "ns": "Agent085",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 7831,
+   "end": 7928
+  },
+  {
+   "kind": "agent",
+   "id": "086",
+   "ns": "Agent086",
+   "family": "polyhedral subdivision",
+   "start": 7929,
+   "end": 8019
+  },
+  {
+   "kind": "agent",
+   "id": "087",
+   "ns": "Agent087",
+   "family": "polyhedral + local",
+   "start": 8020,
+   "end": 8112
+  },
+  {
+   "kind": "agent",
+   "id": "088",
+   "ns": "Agent088",
+   "family": "polyhedral subdivision",
+   "start": 8113,
+   "end": 8219
+  },
+  {
+   "kind": "agent",
+   "id": "089",
+   "ns": "Agent089",
+   "family": "polyhedral + local",
+   "start": 8220,
+   "end": 8303
+  },
+  {
+   "kind": "agent",
+   "id": "090",
+   "ns": "Agent090",
+   "family": "polyhedral subdivision",
+   "start": 8304,
+   "end": 8420
+  },
+  {
+   "kind": "agent",
+   "id": "091",
+   "ns": "Agent091",
+   "family": "polyhedral subdivision",
+   "start": 8421,
+   "end": 8534
+  },
+  {
+   "kind": "agent",
+   "id": "092",
+   "ns": "Agent092",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 8535,
+   "end": 8625
+  },
+  {
+   "kind": "agent",
+   "id": "093",
+   "ns": "Agent093",
+   "family": "polyhedral subdivision",
+   "start": 8626,
+   "end": 8727
+  },
+  {
+   "kind": "agent",
+   "id": "094",
+   "ns": "Agent094",
+   "family": "polyhedral + local",
+   "start": 8728,
+   "end": 8803
+  },
+  {
+   "kind": "agent",
+   "id": "095",
+   "ns": "Agent095",
+   "family": "polyhedral subdivision",
+   "start": 8804,
+   "end": 8898
+  },
+  {
+   "kind": "agent",
+   "id": "096",
+   "ns": "Agent096",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 8899,
+   "end": 8995
+  },
+  {
+   "kind": "agent",
+   "id": "097",
+   "ns": "Agent097",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 8996,
+   "end": 9072
+  },
+  {
+   "kind": "agent",
+   "id": "098",
+   "ns": "Agent098",
+   "family": "polyhedral subdivision",
+   "start": 9073,
+   "end": 9178
+  },
+  {
+   "kind": "agent",
+   "id": "099",
+   "ns": "Agent099",
+   "family": "local agreement (nhds / forall-eventually)",
+   "start": 9179,
+   "end": 9282
+  },
+  {
+   "kind": "agent",
+   "id": "100",
+   "ns": "Agent100",
+   "family": "polyhedral + local",
+   "start": 9283,
+   "end": 9383
+  },
+  {
+   "kind": "comparison",
+   "id": "001",
+   "ns": "Star_001",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 9384,
+   "end": 9501
+  },
+  {
+   "kind": "comparison",
+   "id": "002",
+   "ns": "Star_002",
+   "family": "pointwise affine selection",
+   "supplied": true,
+   "start": 9502,
+   "end": 9636
+  },
+  {
+   "kind": "comparison",
+   "id": "003",
+   "ns": "Star_003",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 9637,
+   "end": 9782
+  },
+  {
+   "kind": "comparison",
+   "id": "004",
+   "ns": "Star_004",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 9783,
+   "end": 9933
+  },
+  {
+   "kind": "comparison",
+   "id": "005",
+   "ns": "Star_005",
+   "family": "pointwise affine selection",
+   "supplied": true,
+   "start": 9934,
+   "end": 10081
+  },
+  {
+   "kind": "comparison",
+   "id": "006",
+   "ns": "Star_006",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 10082,
+   "end": 10238
+  },
+  {
+   "kind": "comparison",
+   "id": "007",
+   "ns": "Star_007",
+   "family": "pointwise affine selection",
+   "supplied": true,
+   "start": 10239,
+   "end": 10383
+  },
+  {
+   "kind": "comparison",
+   "id": "008",
+   "ns": "Star_008",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 10384,
+   "end": 10502
+  },
+  {
+   "kind": "comparison",
+   "id": "009",
+   "ns": "Star_009",
+   "family": "polyhedral + local",
+   "supplied": true,
+   "start": 10503,
+   "end": 10661
+  },
+  {
+   "kind": "comparison",
+   "id": "010",
+   "ns": "Star_010",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 10662,
+   "end": 10799
+  },
+  {
+   "kind": "comparison",
+   "id": "011",
+   "ns": "Star_011",
+   "family": "polyhedral + local",
+   "supplied": true,
+   "start": 10800,
+   "end": 10972
+  },
+  {
+   "kind": "comparison",
+   "id": "012",
+   "ns": "Star_012",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 10973,
+   "end": 11123
+  },
+  {
+   "kind": "comparison",
+   "id": "013",
+   "ns": "Star_013",
+   "family": "pointwise affine selection",
+   "supplied": true,
+   "start": 11124,
+   "end": 11276
+  },
+  {
+   "kind": "comparison",
+   "id": "014",
+   "ns": "Star_014",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 11277,
+   "end": 11381
+  },
+  {
+   "kind": "comparison",
+   "id": "015",
+   "ns": "Star_015",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 11382,
+   "end": 11547
+  },
+  {
+   "kind": "comparison",
+   "id": "016",
+   "ns": "Star_016",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 11548,
+   "end": 11681
+  },
+  {
+   "kind": "comparison",
+   "id": "017",
+   "ns": "Star_017",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 11682,
+   "end": 11826
+  },
+  {
+   "kind": "comparison",
+   "id": "018",
+   "ns": "Star_018",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 11827,
+   "end": 11987
+  },
+  {
+   "kind": "comparison",
+   "id": "019",
+   "ns": "Star_019",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 11988,
+   "end": 12128
+  },
+  {
+   "kind": "comparison",
+   "id": "021",
+   "ns": "Star_021",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 12129,
+   "end": 12278
+  },
+  {
+   "kind": "comparison",
+   "id": "022",
+   "ns": "Star_022",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 12279,
+   "end": 12436
+  },
+  {
+   "kind": "comparison",
+   "id": "023",
+   "ns": "Star_023",
+   "family": "pointwise affine selection",
+   "supplied": true,
+   "start": 12437,
+   "end": 12585
+  },
+  {
+   "kind": "comparison",
+   "id": "024",
+   "ns": "Star_024",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 12586,
+   "end": 12737
+  },
+  {
+   "kind": "comparison",
+   "id": "025",
+   "ns": "Star_025",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 12738,
+   "end": 12908
+  },
+  {
+   "kind": "comparison",
+   "id": "026",
+   "ns": "Star_026",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 12909,
+   "end": 13016
+  },
+  {
+   "kind": "comparison",
+   "id": "028",
+   "ns": "Star_028",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 13017,
+   "end": 13169
+  },
+  {
+   "kind": "comparison",
+   "id": "029",
+   "ns": "Star_029",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 13170,
+   "end": 13260
+  },
+  {
+   "kind": "comparison",
+   "id": "030",
+   "ns": "Star_030",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 13261,
+   "end": 13370
+  },
+  {
+   "kind": "comparison",
+   "id": "031",
+   "ns": "Star_031",
+   "family": "pointwise affine selection",
+   "supplied": true,
+   "start": 13371,
+   "end": 13507
+  },
+  {
+   "kind": "comparison",
+   "id": "032",
+   "ns": "Star_032",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 13508,
+   "end": 13632
+  },
+  {
+   "kind": "comparison",
+   "id": "033",
+   "ns": "Star_033",
+   "family": "pointwise affine selection",
+   "supplied": true,
+   "start": 13633,
+   "end": 13784
+  },
+  {
+   "kind": "comparison",
+   "id": "034",
+   "ns": "Star_034",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 13785,
+   "end": 13915
+  },
+  {
+   "kind": "comparison",
+   "id": "035",
+   "ns": "Star_035",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 13916,
+   "end": 14081
+  },
+  {
+   "kind": "comparison",
+   "id": "036",
+   "ns": "Star_036",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 14082,
+   "end": 14246
+  },
+  {
+   "kind": "comparison",
+   "id": "037",
+   "ns": "Star_037",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 14247,
+   "end": 14380
+  },
+  {
+   "kind": "comparison",
+   "id": "038",
+   "ns": "Star_038",
+   "family": "pointwise affine selection",
+   "supplied": true,
+   "start": 14381,
+   "end": 14528
+  },
+  {
+   "kind": "comparison",
+   "id": "039",
+   "ns": "Star_039",
+   "family": "pointwise affine selection",
+   "supplied": true,
+   "start": 14529,
+   "end": 14692
+  },
+  {
+   "kind": "comparison",
+   "id": "040",
+   "ns": "Star_040",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 14693,
+   "end": 14832
+  },
+  {
+   "kind": "comparison",
+   "id": "041",
+   "ns": "Star_041",
+   "family": "pointwise affine selection",
+   "supplied": true,
+   "start": 14833,
+   "end": 14928
+  },
+  {
+   "kind": "comparison",
+   "id": "042",
+   "ns": "Star_042",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 14929,
+   "end": 15014
+  },
+  {
+   "kind": "comparison",
+   "id": "043",
+   "ns": "Star_043",
+   "family": "pointwise affine selection",
+   "supplied": true,
+   "start": 15015,
+   "end": 15167
+  },
+  {
+   "kind": "comparison",
+   "id": "044",
+   "ns": "Star_044",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 15168,
+   "end": 15317
+  },
+  {
+   "kind": "comparison",
+   "id": "045",
+   "ns": "Star_045",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 15318,
+   "end": 15478
+  },
+  {
+   "kind": "comparison",
+   "id": "046",
+   "ns": "Star_046",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 15479,
+   "end": 15603
+  },
+  {
+   "kind": "comparison",
+   "id": "047",
+   "ns": "Star_047",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 15604,
+   "end": 15770
+  },
+  {
+   "kind": "comparison",
+   "id": "048",
+   "ns": "Star_048",
+   "family": "polyhedral + local",
+   "supplied": true,
+   "start": 15771,
+   "end": 15915
+  },
+  {
+   "kind": "comparison",
+   "id": "049",
+   "ns": "Star_049",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 15916,
+   "end": 16035
+  },
+  {
+   "kind": "comparison",
+   "id": "050",
+   "ns": "Star_050",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 16036,
+   "end": 16181
+  },
+  {
+   "kind": "comparison",
+   "id": "051",
+   "ns": "Star_051",
+   "family": "pointwise affine selection",
+   "supplied": true,
+   "start": 16182,
+   "end": 16337
+  },
+  {
+   "kind": "comparison",
+   "id": "052",
+   "ns": "Star_052",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 16338,
+   "end": 16457
+  },
+  {
+   "kind": "comparison",
+   "id": "053",
+   "ns": "Star_053",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 16458,
+   "end": 16605
+  },
+  {
+   "kind": "comparison",
+   "id": "054",
+   "ns": "Star_054",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 16606,
+   "end": 16733
+  },
+  {
+   "kind": "comparison",
+   "id": "055",
+   "ns": "Star_055",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 16734,
+   "end": 16888
+  },
+  {
+   "kind": "comparison",
+   "id": "056",
+   "ns": "Star_056",
+   "family": "polyhedral + local",
+   "supplied": true,
+   "start": 16889,
+   "end": 17041
+  },
+  {
+   "kind": "comparison",
+   "id": "057",
+   "ns": "Star_057",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 17042,
+   "end": 17202
+  },
+  {
+   "kind": "comparison",
+   "id": "058",
+   "ns": "Star_058",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 17203,
+   "end": 17346
+  },
+  {
+   "kind": "comparison",
+   "id": "059",
+   "ns": "Star_059",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 17347,
+   "end": 17463
+  },
+  {
+   "kind": "comparison",
+   "id": "060",
+   "ns": "Star_060",
+   "family": "pointwise affine selection",
+   "supplied": true,
+   "start": 17464,
+   "end": 17592
+  },
+  {
+   "kind": "comparison",
+   "id": "061",
+   "ns": "Star_061",
+   "family": "polyhedral + local",
+   "supplied": true,
+   "start": 17593,
+   "end": 17735
+  },
+  {
+   "kind": "comparison",
+   "id": "062",
+   "ns": "Star_062",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 17736,
+   "end": 17862
+  },
+  {
+   "kind": "comparison",
+   "id": "063",
+   "ns": "Star_063",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 17863,
+   "end": 17958
+  },
+  {
+   "kind": "comparison",
+   "id": "064",
+   "ns": "Star_064",
+   "family": "pointwise affine selection",
+   "supplied": true,
+   "start": 17959,
+   "end": 18107
+  },
+  {
+   "kind": "comparison",
+   "id": "065",
+   "ns": "Star_065",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 18108,
+   "end": 18286
+  },
+  {
+   "kind": "comparison",
+   "id": "066",
+   "ns": "Star_066",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 18287,
+   "end": 18438
+  },
+  {
+   "kind": "comparison",
+   "id": "067",
+   "ns": "Star_067",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 18439,
+   "end": 18571
+  },
+  {
+   "kind": "comparison",
+   "id": "068",
+   "ns": "Star_068",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 18572,
+   "end": 18679
+  },
+  {
+   "kind": "comparison",
+   "id": "069",
+   "ns": "Star_069",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 18680,
+   "end": 18837
+  },
+  {
+   "kind": "comparison",
+   "id": "070",
+   "ns": "Star_070",
+   "family": "polyhedral + local",
+   "supplied": true,
+   "start": 18838,
+   "end": 18969
+  },
+  {
+   "kind": "comparison",
+   "id": "071",
+   "ns": "Star_071",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 18970,
+   "end": 19142
+  },
+  {
+   "kind": "comparison",
+   "id": "072",
+   "ns": "Star_072",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 19143,
+   "end": 19268
+  },
+  {
+   "kind": "comparison",
+   "id": "073",
+   "ns": "Star_073",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 19269,
+   "end": 19404
+  },
+  {
+   "kind": "comparison",
+   "id": "074",
+   "ns": "Star_074",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 19405,
+   "end": 19531
+  },
+  {
+   "kind": "comparison",
+   "id": "075",
+   "ns": "Star_075",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 19532,
+   "end": 19678
+  },
+  {
+   "kind": "comparison",
+   "id": "076",
+   "ns": "Star_076",
+   "family": "polyhedral + local",
+   "supplied": true,
+   "start": 19679,
+   "end": 19842
+  },
+  {
+   "kind": "comparison",
+   "id": "077",
+   "ns": "Star_077",
+   "family": "pointwise affine selection",
+   "supplied": true,
+   "start": 19843,
+   "end": 19988
+  },
+  {
+   "kind": "comparison",
+   "id": "078",
+   "ns": "Star_078",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 19989,
+   "end": 20122
+  },
+  {
+   "kind": "comparison",
+   "id": "079",
+   "ns": "Star_079",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 20123,
+   "end": 20282
+  },
+  {
+   "kind": "comparison",
+   "id": "080",
+   "ns": "Star_080",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 20283,
+   "end": 20442
+  },
+  {
+   "kind": "comparison",
+   "id": "081",
+   "ns": "Star_081",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 20443,
+   "end": 20564
+  },
+  {
+   "kind": "comparison",
+   "id": "082",
+   "ns": "Star_082",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 20565,
+   "end": 20699
+  },
+  {
+   "kind": "comparison",
+   "id": "083",
+   "ns": "Star_083",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 20700,
+   "end": 20844
+  },
+  {
+   "kind": "comparison",
+   "id": "085",
+   "ns": "Star_085",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 20845,
+   "end": 20999
+  },
+  {
+   "kind": "comparison",
+   "id": "086",
+   "ns": "Star_086",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 21000,
+   "end": 21101
+  },
+  {
+   "kind": "comparison",
+   "id": "087",
+   "ns": "Star_087",
+   "family": "polyhedral + local",
+   "supplied": true,
+   "start": 21102,
+   "end": 21253
+  },
+  {
+   "kind": "comparison",
+   "id": "088",
+   "ns": "Star_088",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 21254,
+   "end": 21378
+  },
+  {
+   "kind": "comparison",
+   "id": "089",
+   "ns": "Star_089",
+   "family": "polyhedral + local",
+   "supplied": true,
+   "start": 21379,
+   "end": 21526
+  },
+  {
+   "kind": "comparison",
+   "id": "090",
+   "ns": "Star_090",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 21527,
+   "end": 21659
+  },
+  {
+   "kind": "comparison",
+   "id": "091",
+   "ns": "Star_091",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 21660,
+   "end": 21790
+  },
+  {
+   "kind": "comparison",
+   "id": "092",
+   "ns": "Star_092",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 21791,
+   "end": 21951
+  },
+  {
+   "kind": "comparison",
+   "id": "093",
+   "ns": "Star_093",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 21952,
+   "end": 22095
+  },
+  {
+   "kind": "comparison",
+   "id": "094",
+   "ns": "Star_094",
+   "family": "polyhedral + local",
+   "supplied": true,
+   "start": 22096,
+   "end": 22269
+  },
+  {
+   "kind": "comparison",
+   "id": "095",
+   "ns": "Star_095",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 22270,
+   "end": 22409
+  },
+  {
+   "kind": "comparison",
+   "id": "096",
+   "ns": "Star_096",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 22410,
+   "end": 22581
+  },
+  {
+   "kind": "comparison",
+   "id": "097",
+   "ns": "Star_097",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 22582,
+   "end": 22738
+  },
+  {
+   "kind": "comparison",
+   "id": "098",
+   "ns": "Star_098",
+   "family": "polyhedral subdivision",
+   "supplied": true,
+   "start": 22739,
+   "end": 22850
+  },
+  {
+   "kind": "comparison",
+   "id": "099",
+   "ns": "Star_099",
+   "family": "local agreement (nhds / forall-eventually)",
+   "supplied": true,
+   "start": 22851,
+   "end": 23000
+  },
+  {
+   "kind": "comparison",
+   "id": "100",
+   "ns": "Star_100",
+   "family": "polyhedral + local",
+   "supplied": true,
+   "start": 23001,
+   "end": 23118
+  }
+ ],
+ "sample": {
+  "local agreement (nhds / forall-eventually)": [
+   "003",
+   "004",
+   "006",
+   "010",
+   "012",
+   "016",
+   "017",
+   "018",
+   "019",
+   "022",
+   "024",
+   "025",
+   "028",
+   "035",
+   "036",
+   "040",
+   "044",
+   "045",
+   "047",
+   "055",
+   "058",
+   "065",
+   "066",
+   "067",
+   "069",
+   "071",
+   "073",
+   "075",
+   "078",
+   "080",
+   "082",
+   "085",
+   "092",
+   "096",
+   "097",
+   "099"
+  ],
+  "polyhedral subdivision": [
+   "001",
+   "008",
+   "014",
+   "015",
+   "021",
+   "026",
+   "029",
+   "030",
+   "032",
+   "034",
+   "037",
+   "042",
+   "046",
+   "049",
+   "050",
+   "052",
+   "053",
+   "054",
+   "057",
+   "059",
+   "062",
+   "063",
+   "068",
+   "072",
+   "074",
+   "079",
+   "081",
+   "083",
+   "086",
+   "088",
+   "090",
+   "091",
+   "093",
+   "095",
+   "098"
+  ],
+  "pointwise affine selection": [
+   "002",
+   "005",
+   "007",
+   "013",
+   "023",
+   "031",
+   "033",
+   "038",
+   "039",
+   "041",
+   "043",
+   "051",
+   "060",
+   "064",
+   "077"
+  ],
+  "polyhedral + local": [
+   "009",
+   "011",
+   "048",
+   "056",
+   "061",
+   "070",
+   "076",
+   "087",
+   "089",
+   "094",
+   "100"
+  ]
+ },
+ "ids": [
+  "001",
+  "002",
+  "003",
+  "004",
+  "005",
+  "006",
+  "007",
+  "008",
+  "009",
+  "010",
+  "011",
+  "012",
+  "013",
+  "014",
+  "015",
+  "016",
+  "017",
+  "018",
+  "019",
+  "021",
+  "022",
+  "023",
+  "024",
+  "025",
+  "026",
+  "028",
+  "029",
+  "030",
+  "031",
+  "032",
+  "033",
+  "034",
+  "035",
+  "036",
+  "037",
+  "038",
+  "039",
+  "040",
+  "041",
+  "042",
+  "043",
+  "044",
+  "045",
+  "046",
+  "047",
+  "048",
+  "049",
+  "050",
+  "051",
+  "052",
+  "053",
+  "054",
+  "055",
+  "056",
+  "057",
+  "058",
+  "059",
+  "060",
+  "061",
+  "062",
+  "063",
+  "064",
+  "065",
+  "066",
+  "067",
+  "068",
+  "069",
+  "070",
+  "071",
+  "072",
+  "073",
+  "074",
+  "075",
+  "076",
+  "077",
+  "078",
+  "079",
+  "080",
+  "081",
+  "082",
+  "083",
+  "085",
+  "086",
+  "087",
+  "088",
+  "089",
+  "090",
+  "091",
+  "092",
+  "093",
+  "094",
+  "095",
+  "096",
+  "097",
+  "098",
+  "099",
+  "100"
+ ]
+}

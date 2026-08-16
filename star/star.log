@@ -1,0 +1,425 @@
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:149:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:223:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:315:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:404:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:509:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:593:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:597:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:695:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:785:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:882:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:974:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:1061:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:1065:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:1159:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:1166:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:1255:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:1345:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:1450:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:1532:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:1537:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:1627:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:1718:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:1815:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:1919:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:2017:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:2096:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:2187:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:2277:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:2283:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:2382:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:2481:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:2569:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:2701:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:2794:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:2798:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:2883:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:2974:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:3058:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:3170:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:3271:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:3357:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:3459:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:3463:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:3568:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:3660:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:3727:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:3731:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:3812:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:3816:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:3888:3: warning: `List.Chain'` has been deprecated: Use `List.IsChain` instead
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:3922:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:4016:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:4020:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:4098:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:4190:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:4287:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:4291:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:4368:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:4376:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:4457:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:4546:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:4639:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:4727:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:4834:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:4923:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:5024:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:5100:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:5104:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:5214:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:5311:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:5412:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:5520:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:5619:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:5706:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:5814:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:5818:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:5900:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:6007:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:6103:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:6182:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:6261:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:6394:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:6467:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:6471:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:6568:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:6650:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:6653:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:6756:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:6837:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:6937:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:7040:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:7123:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:7231:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:7338:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:7341:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:7439:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:7527:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:7622:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:7626:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:7721:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:7821:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:7825:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:7923:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:8015:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:8103:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:8107:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:8210:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:8214:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:8294:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:8298:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:8416:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:8529:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:8616:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:8620:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:8723:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:8793:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:8799:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:8894:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:8992:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:9068:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:9169:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instFloorRing', which is 'noncomputable'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:9173:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:9279:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:9379:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:9468:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:9494:8: warning: declaration uses 'sorry'
+@@STAR Star_001 cpwl=PROVED relun=SORRY depth=PROVED statement=SORRY ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:9614:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:9629:8: warning: declaration uses 'sorry'
+@@STAR Star_002 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:9774:8: warning: declaration uses 'sorry'
+@@STAR Star_003 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY_NE ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:9927:8: warning: declaration uses 'sorry'
+@@STAR Star_004 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:10073:8: warning: declaration uses 'sorry'
+@@STAR Star_005 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY_NE ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:10230:8: warning: declaration uses 'sorry'
+@@STAR Star_006 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY_NE ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:10355:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:10363:8: warning: declaration uses 'sorry'
+@@STAR Star_007 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY ownfalse=PROVED
+@@STAR Star_008 cpwl=PROVED relun=PROVED depth=PROVED statement=PROVED ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:10655:8: warning: declaration uses 'sorry'
+@@STAR Star_009 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:10793:8: warning: declaration uses 'sorry'
+@@STAR Star_010 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:10966:8: warning: declaration uses 'sorry'
+@@STAR Star_011 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:11115:8: warning: declaration uses 'sorry'
+@@STAR Star_012 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY_NE ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:11155:69: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:11270:8: warning: declaration uses 'sorry'
+@@STAR Star_013 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:11361:8: warning: declaration uses 'sorry'
+@@STAR Star_014 cpwl=PROVED relun=SORRY depth=PROVED statement=SORRY ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:11426:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:11539:8: warning: declaration uses 'sorry'
+@@STAR Star_015 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY_NE ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:11675:8: warning: declaration uses 'sorry'
+@@STAR Star_016 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:11818:8: warning: declaration uses 'sorry'
+@@STAR Star_017 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY_NE ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:11979:8: warning: declaration uses 'sorry'
+@@STAR Star_018 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY_NE ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:12114:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:12120:8: warning: declaration uses 'sorry'
+@@STAR Star_019 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY_NE ownfalse=PROVED
+@@STAR Star_021 cpwl=PROVED relun=PROVED depth=PROVED statement=PROVED ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:12430:8: warning: declaration uses 'sorry'
+@@STAR Star_022 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:12577:8: warning: declaration uses 'sorry'
+@@STAR Star_023 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY_NE ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:12729:8: warning: declaration uses 'sorry'
+@@STAR Star_024 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY_NE ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:12898:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:12902:8: warning: declaration uses 'sorry'
+@@STAR Star_025 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY ownfalse=PROVED
+@@STAR Star_026 cpwl=PROVED relun=PROVED depth=PROVED statement=PROVED ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:13162:8: warning: declaration uses 'sorry'
+@@STAR Star_028 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY_NE ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:13244:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:13254:8: warning: declaration uses 'sorry'
+@@STAR Star_029 cpwl=PROVED relun=SORRY depth=PROVED statement=SORRY ownfalse=MISSING
+@@STAR Star_030 cpwl=PROVED relun=PROVED depth=PROVED statement=PROVED ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:13501:8: warning: declaration uses 'sorry'
+@@STAR Star_031 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY ownfalse=MISSING
+@@STAR Star_032 cpwl=PROVED relun=PROVED depth=PROVED statement=PROVED ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:13778:8: warning: declaration uses 'sorry'
+@@STAR Star_033 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY ownfalse=PROVED
+@@STAR Star_034 cpwl=PROVED relun=PROVED depth=PROVED statement=PROVED ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:14075:8: warning: declaration uses 'sorry'
+@@STAR Star_035 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:14240:8: warning: declaration uses 'sorry'
+@@STAR Star_036 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY ownfalse=MISSING
+@@STAR Star_037 cpwl=PROVED relun=PROVED depth=PROVED statement=PROVED ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:14514:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:14522:8: warning: declaration uses 'sorry'
+@@STAR Star_038 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:14680:8: warning: declaration uses 'sorry'
+@@STAR Star_039 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:14784:11: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:14821:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:14826:8: warning: declaration uses 'sorry'
+@@STAR Star_040 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:14882:16: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:14910:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:14921:8: warning: declaration uses 'sorry'
+@@STAR Star_041 cpwl=SORRY relun=SORRY depth=PROVED statement=SORRY ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:14986:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:15008:8: warning: declaration uses 'sorry'
+@@STAR Star_042 cpwl=PROVED relun=SORRY depth=PROVED statement=SORRY ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:15159:8: warning: declaration uses 'sorry'
+@@STAR Star_043 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY_NE ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:15309:8: warning: declaration uses 'sorry'
+@@STAR Star_044 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY_NE ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:15472:8: warning: declaration uses 'sorry'
+@@STAR Star_045 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY ownfalse=MISSING
+@@STAR Star_046 cpwl=PROVED relun=PROVED depth=PROVED statement=PROVED ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:15723:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:15764:8: warning: declaration uses 'sorry'
+@@STAR Star_047 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:15909:8: warning: declaration uses 'sorry'
+@@STAR Star_048 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY_NE ownfalse=PROVED
+@@STAR Star_049 cpwl=PROVED relun=PROVED depth=PROVED statement=PROVED ownfalse=MISSING
+@@STAR Star_050 cpwl=PROVED relun=PROVED depth=PROVED statement=PROVED ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:16210:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:16329:8: warning: declaration uses 'sorry'
+@@STAR Star_051 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY_NE ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:16431:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:16450:8: warning: declaration uses 'sorry'
+@@STAR Star_052 cpwl=PROVED relun=SORRY depth=PROVED statement=SORRY ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:16597:8: warning: declaration uses 'sorry'
+@@STAR Star_053 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY_NE ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:16709:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:16727:8: warning: declaration uses 'sorry'
+@@STAR Star_054 cpwl=SORRY relun=PROVED depth=PROVED statement=SORRY ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:16880:8: warning: declaration uses 'sorry'
+@@STAR Star_055 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY_NE ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:17035:8: warning: declaration uses 'sorry'
+@@STAR Star_056 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY ownfalse=PROVED
+@@STAR Star_057 cpwl=PROVED relun=PROVED depth=PROVED statement=PROVED ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:17330:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:17340:8: warning: declaration uses 'sorry'
+@@STAR Star_058 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY ownfalse=MISSING
+@@STAR Star_059 cpwl=PROVED relun=PROVED depth=PROVED statement=PROVED ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:17586:8: warning: declaration uses 'sorry'
+@@STAR Star_060 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:17729:8: warning: declaration uses 'sorry'
+@@STAR Star_061 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY ownfalse=PROVED
+@@STAR Star_062 cpwl=PROVED relun=PROVED depth=PROVED statement=PROVED ownfalse=MISSING
+@@STAR Star_063 cpwl=PROVED relun=PROVED depth=PROVED statement=PROVED ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:17978:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:18056:11: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:18099:8: warning: declaration uses 'sorry'
+@@STAR Star_064 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY_NE ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:18129:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:18278:8: warning: declaration uses 'sorry'
+@@STAR Star_065 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY_NE ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:18432:8: warning: declaration uses 'sorry'
+@@STAR Star_066 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:18557:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:18565:8: warning: declaration uses 'sorry'
+@@STAR Star_067 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:18644:14: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:18661:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:18672:8: warning: declaration uses 'sorry'
+@@STAR Star_068 cpwl=SORRY relun=SORRY depth=PROVED statement=SORRY ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:18831:8: warning: declaration uses 'sorry'
+@@STAR Star_069 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:18962:8: warning: declaration uses 'sorry'
+@@STAR Star_070 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:19087:66: error: Application type mismatch: The argument
+  j
+has type
+  ℕ
+but is expected to have type
+  Fin (wid i.castSucc)
+in the application
+  v j
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:19087:10: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  Fintype ℕ
+
+Hint: Adding the command `deriving instance Fintype for Nat` may allow Lean to derive the missing instance.
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:19130:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:19136:8: warning: declaration uses 'sorry'
+@@STAR Star_071 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY ownfalse=SORRY
+@@STAR Star_072 cpwl=PROVED relun=PROVED depth=PROVED statement=PROVED ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:19291:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:19396:8: warning: declaration uses 'sorry'
+@@STAR Star_073 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY_NE ownfalse=PROVED
+@@STAR Star_074 cpwl=PROVED relun=PROVED depth=PROVED statement=PROVED ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:19581:4: error: Tactic `simp` failed with a nested error:
+maximum recursion depth has been reached
+use `set_option maxRecDepth <num>` to increase limit
+use `set_option diagnostics true` to get diagnostic information
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:19585:41: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:19652:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:19670:8: warning: declaration uses 'sorry'
+@@STAR Star_075 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY_NE ownfalse=SORRY
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:19795:17: error: unsolved goals
+k : ℕ
+ih : ∀ (n : ℕ) (f : (Fin n → ℝ) → ℝ), Agent076.ComputesWithHiddenLayers k n f ↔ Ref.ComputedBy n k f
+n : ℕ
+f : (Fin n → ℝ) → ℝ
+m : ℕ
+T : Ref.Aff n m
+g : (Fin m → ℝ) → ℝ
+hg : Ref.ComputedBy m k g
+hf : ∀ (x : Fin n → ℝ), f x = g (Ref.reluVec (T.eval x))
+x : Fin n → ℝ
+⊢ g (Ref.reluVec (T.eval x)) = g (Agent076.reluVec ((fun x => T.eval x) x))
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:19836:8: warning: declaration uses 'sorry'
+@@STAR Star_076 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:19980:8: warning: declaration uses 'sorry'
+@@STAR Star_077 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY_NE ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:20011:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:20116:8: warning: declaration uses 'sorry'
+@@STAR Star_078 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:20174:27: error: unsolved goals
+case succ.mpr.layer
+k : ℕ
+ih : ∀ (n : ℕ) (f : (Fin n → ℝ) → ℝ), Ref.ComputedBy n k f ↔ ∃ net, ∀ (x : Fin n → ℝ), f x = net.eval x
+n : ℕ
+f : (Fin n → ℝ) → ℝ
+m : ℕ
+T : Agent079.AffineTransform n m
+rest : Agent079.ReLUNet m k
+hnet : ∀ (x : Fin n → ℝ), f x = (Agent079.ReLUNet.layer n m k T rest).eval x
+x : Fin n → ℝ
+⊢ (Agent079.ReLUNet.layer n m k T rest).eval x = rest.eval (Ref.reluVec ({ M := T.A, c := T.c }.eval x))
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:20274:8: warning: declaration uses 'sorry'
+@@STAR Star_079 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY_NE ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:20429:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:20436:8: warning: declaration uses 'sorry'
+@@STAR Star_080 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY ownfalse=PROVED
+@@STAR Star_081 cpwl=PROVED relun=PROVED depth=PROVED statement=PROVED ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:20693:8: warning: declaration uses 'sorry'
+@@STAR Star_082 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:20773:14: warning: declaration uses 'sorry'
+@@STAR Star_083 cpwl=SORRY relun=PROVED depth=PROVED statement=SORRY ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:20943:11: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:20988:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:20993:8: warning: declaration uses 'sorry'
+@@STAR Star_085 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY ownfalse=PROVED
+@@STAR Star_086 cpwl=PROVED relun=PROVED depth=PROVED statement=PROVED ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:21199:11: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:21241:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:21247:8: warning: declaration uses 'sorry'
+@@STAR Star_087 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY ownfalse=PROVED
+@@STAR Star_088 cpwl=PROVED relun=PROVED depth=PROVED statement=PROVED ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:21519:8: warning: declaration uses 'sorry'
+@@STAR Star_089 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY_NE ownfalse=PROVED
+@@STAR Star_090 cpwl=PROVED relun=PROVED depth=PROVED statement=PROVED ownfalse=MISSING
+@@STAR Star_091 cpwl=PROVED relun=PROVED depth=PROVED statement=PROVED ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:21927:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:21943:8: warning: declaration uses 'sorry'
+@@STAR Star_092 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY_NE ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:22037:2: error: Too many variable names provided at alternative `last`: 3 provided, but 1 expected
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:22039:32: error: Application type mismatch: The argument
+  a'
+has type
+  Agent093.AffineMap' a✝ b✝
+but is expected to have type
+  ℕ
+in the application
+  Ref.Aff a'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:22039:43: error(lean.unknownIdentifier): Unknown identifier `T.apply`
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:22040:19: error(lean.unknownIdentifier): Unknown identifier `T`
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:22040:35: error(lean.unknownIdentifier): Unknown identifier `T`
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:22041:2: error: Too many variable names provided at alternative `cons`: 7 provided, but 4 expected
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:22044:31: error(lean.invalidField): Invalid field `length`: The environment does not contain `Agent093.Layers.length`, so it is not possible to project the field `length` from an expression
+  ws'
+of type `Agent093.Layers a' ws✝ b✝`
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:22045:17: error(lean.unknownIdentifier): Unknown identifier `rest.apply`
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:22046:13: error(lean.unknownIdentifier): Unknown identifier `T`
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:22046:18: error(lean.unknownIdentifier): Unknown identifier `T`
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:22046:33: error(lean.unknownIdentifier): Unknown identifier `rest.apply`
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:22046:49: error(lean.unknownIdentifier): Unknown identifier `ih`
+@@STAR Star_093 cpwl=PROVED relun=SORRY depth=PROVED statement=SORRY ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:22263:8: warning: declaration uses 'sorry'
+@@STAR Star_094 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:22304:2: error: linarith failed to find a contradiction
+case h
+n : ℕ
+a : Fin n → ℝ
+b : ℝ
+x : Fin n → ℝ
+hx : ∑ i, a i * x i ≤ b
+y : Fin n → ℝ
+hy : ∑ i, a i * y i ≤ b
+p q : ℝ
+hp : 0 ≤ p
+hq : 0 ≤ q
+hpq : p + q = 1
+hxy : ∑ i, a i * (p • x + q • y) i = p * ∑ i, a i * x i + q * ∑ i, a i * y i
+h1 : p * ∑ i, a i * x i ≤ p * b
+h2 : q * ∑ i, a i * y i ≤ q * b
+a✝ : b < p * ∑ i, a i * x i + q * ∑ i, a i * y i
+⊢ False
+failed
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:22380:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:22403:8: warning: declaration uses 'sorry'
+@@STAR Star_095 cpwl=SORRY relun=PROVED depth=PROVED statement=SORRY ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:22573:8: warning: declaration uses 'sorry'
+@@STAR Star_096 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY_NE ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:22730:8: warning: declaration uses 'sorry'
+@@STAR Star_097 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY_NE ownfalse=PROVED
+@@STAR Star_098 cpwl=PROVED relun=PROVED depth=PROVED statement=PROVED ownfalse=MISSING
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:22994:8: warning: declaration uses 'sorry'
+@@STAR Star_099 cpwl=REFUTED relun=PROVED depth=PROVED statement=SORRY ownfalse=PROVED
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:23101:8: warning: declaration uses 'sorry'
+/Users/panda/Desktop/Lean/quick-test/star/StarAll.lean:23112:8: warning: declaration uses 'sorry'
+@@STAR Star_100 cpwl=REFUTED relun=SORRY depth=PROVED statement=SORRY ownfalse=MISSING
