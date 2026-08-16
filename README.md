@@ -9,18 +9,6 @@ arXiv:2505.14338 Bakaev, Brunck, Hertrich, Stade, Yehudayoff.
 alternating-composition network semantics, `ReLUn n k`, `CPWL n` and the depth bound from
 scratch. No shared definitions, and no agent saw another agent's file.
 
-## Exact matches the only pairs that are literally the same statement
-
-| agents | shared reading |
-|---|---|
-| `004`, `018` | local agreement (nhds / eventually), at most k |
-| `010`, `024` | local agreement (nhds / eventually), at most k |
-| `016`, `070` | local agreement (nhds / eventually), at most k |
-| `035`, `096` | local agreement (nhds / eventually), at most k |
-| `044`, `097` | local agreement (nhds / eventually), at most k |
-| `045`, `048` | local agreement (nhds / eventually), at most k |
-| `059`, `062` | polyhedral / covering subdivision, at most k |
-
 # Comparison
 
 Every formalization is compared against an agent written [`star/Reference.lean`](star/Reference.lean), not against each other.
@@ -47,6 +35,17 @@ Proved equal to the reference, hence to each other.
 
 `001`, `008`, `014`, `021`, `026`, `029`, `030`, `032`, `034`, `037`, `042`, `046`, `049`, `050`
 `052`, `057`, `059`, `062`, `063`, `072`, `074`, `081`, `086`, `088`, `090`, `091`, `093`, `098`
+
+### Exact matches without a proof
+
+
+| | defeq to `Ref` |
+|---|---|
+| `depthBound` | **87 / 97** |
+| `CPWL` | **1 / 97** |
+| `ReLUn` | **0 / 97** |
+| all three at once | **0** |
+
 
 ## Disagree: 64 of 97
 
