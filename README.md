@@ -49,7 +49,7 @@ Proved equal to the reference, hence to each other.
 
 ## Disagree: 64 of 97
 
-Proved to state a different theorem. All carry a sorry-free refutation.
+Proved to state a different theorem.
 
 `002`, `003`, `004`, `005`, `006`, `007`, `009`, `010`, `011`, `012`, `013`, `015`, `016`, `017`
 `018`, `019`, `022`, `023`, `024`, `025`, `028`, `031`, `033`, `035`, `036`, `038`, `039`, `040`
